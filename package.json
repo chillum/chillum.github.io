@@ -1,0 +1,13 @@
+{
+  "description": "http://chillum.github.io",
+  "repository": {
+    "type" : "git",
+    "url" : "git@github.com:chillum/chillum.github.io.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-minify-css": "^0.4.6"
+  }
+}
