@@ -13,5 +13,5 @@ gulp.task('default', function() {
 });
 
 gulp.task('clean', function() {
-  del(['*css', '*.html']);
+  del(['*.css', '*.html']);
 });
