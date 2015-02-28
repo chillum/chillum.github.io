@@ -6,11 +6,11 @@ html
 body
   margin 0
   font-family 'Helvetica Neue', Helvetica, Arial, serif
-  font-size 15px
+  font-size 16px
   font-weight 400
   line-height 1.5
   color #666
-  background #fafafa url(../images/body-bg.jpg) 0 0 repeat
+  background #fafafa url(images/body-bg.jpg) 0 0 repeat
 
 header, section
   display block
@@ -35,7 +35,7 @@ a
     color #fff
     small
       display block
-      font-size 11px
+      font-size 14px
 
 a:active, a:hover
   outline 0
@@ -59,7 +59,7 @@ header
   padding-top 40px
   padding-bottom 40px
   font-family 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif
-  background #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x
+  background #2e7bcf url(images/header-bg.jpg) 0 0 repeat-x
   border-bottom solid 1px #275da1
   h1
     width 540px
@@ -75,7 +75,7 @@ header
       position absolute
       top 0
       right 0
-      background transparent url(../images/github-button.png) 0 0 no-repeat
+      background transparent url(images/github-button.png) 0 0 no-repeat
 
 .inner
   position relative
@@ -133,19 +133,23 @@ ol
       height 1%
 
 @media (min-width: 768px) and (max-width: 959px)
+  body
+    font-size 15px
   .inner
-    width 740px
+    width 93%
   header h1
     width 340px
-    font-size 50px
+    font-size 44px
   #main-content
-    width 490px
+    width 100% !important
     h2:before
       padding-right 0
       margin-left 0
       content none
 
 @media (max-width: 767px)
+  body
+    font-size 14px
   .inner
     width 93%
   header
@@ -163,7 +167,7 @@ ol
         height auto
         padding 5px 10px
         margin-top 15px
-        font-size 13px
+        font-size 15px
         line-height 1
         color #2879d0
         text-align center
@@ -174,10 +178,9 @@ ol
         -webkit-border-radius 5px
         small
           display inline
-          font-size 13px
   #main-content
     float none
-    width 100% ! important
+    width 100% !important
     h2:before
       padding-right 0
       margin-left 0
