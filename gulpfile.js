@@ -1,11 +1,11 @@
 var gulp   = require('gulp'),
     jade   = require('gulp-jade'),
-    minify = require('gulp-minify-css'),
+    stylus = require('gulp-stylus'),
     del    = require('del');
  
 gulp.task('default', function() {
-  gulp.src('src/*.css')
-    .pipe(minify({keepBreaks:true}))
+  gulp.src('src/*.styl')
+    .pipe(stylus())
     .pipe(gulp.dest('.'));
   gulp.src('src/*.jade')
     .pipe(jade({pretty: true}))

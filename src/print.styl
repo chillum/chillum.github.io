@@ -1,0 +1,84 @@
+html, body, div, span, h1, h2, p, a, img, small, ol, ul, li, header, section
+  padding 0
+  margin 0
+  font inherit
+  font-size 100%
+  vertical-align baseline
+  border 0
+
+// HTML5 display-role reset for older browsers
+header, section
+  display block
+
+body
+  line-height 1
+  font-family 'Helvetica Neue', Helvetica, Arial, serif
+  font-size 13px
+  line-height 1.5
+  color #000
+
+ol, ul
+  list-style none
+
+a
+  font-weight bold
+  color #d5000d
+  text-decoration none
+
+header
+  padding-top 35px
+  padding-bottom 10px
+  h1
+    font-size 28px
+    font-weight bold
+    line-height 1.2
+    color #303030
+    letter-spacing -1px
+
+h1, h2
+  font-family 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif
+    
+h2
+  color #303030
+  margin-bottom 8px
+  font-size 22px
+  font-weight 700
+
+#main-content
+  padding-top 10px
+
+ul, ol
+  margin-bottom 20px
+
+p
+  margin-bottom 20px
+  font-weight 300
+  a
+    font-weight 400
+
+ul
+  li
+    padding-left 20px
+    list-style-position inside
+    list-style disc
+
+ol
+  li
+    padding-left 3px
+    list-style-position inside
+    list-style decimal
+
+.clearfix
+  display block
+  &:after
+    display block
+    height 0
+    clear both
+    visibility hidden
+    content '.'
+
+*
+  html
+    .clearfix
+      height 1%
+

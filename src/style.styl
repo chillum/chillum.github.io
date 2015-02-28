@@ -1,0 +1,184 @@
+html
+  font-family sans-serif
+  -webkit-text-size-adjust 100%
+  -ms-text-size-adjust 100%
+
+body
+  margin 0
+  font-family 'Helvetica Neue', Helvetica, Arial, serif
+  font-size 15px
+  font-weight 400
+  line-height 1.5
+  color #666
+  background #fafafa url(../images/body-bg.jpg) 0 0 repeat
+
+header, section
+  display block
+
+[hidden]
+  display none
+
+a
+  background-color transparent
+  color #2879d0
+  text-decoration none
+  &:hover
+    color #2268b2
+  &.button
+    width 134px
+    height 58px
+    padding-top 22px
+    padding-left 68px
+    font-family 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif
+    font-size 23px
+    line-height 1.2
+    color #fff
+    small
+      display block
+      font-size 11px
+
+a:active, a:hover
+  outline 0
+
+h1
+  margin 0.67em 0
+
+small
+  font-size 80%
+
+img
+  border 0
+
+p
+  margin-top 0
+  margin-bottom 20px
+  a
+    font-weight 400
+
+header
+  padding-top 40px
+  padding-bottom 40px
+  font-family 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif
+  background #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x
+  border-bottom solid 1px #275da1
+  h1
+    width 540px
+    margin-top 0
+    margin-bottom 0.2em
+    font-size 48px
+    font-weight normal
+    line-height 1
+    color #fff
+    letter-spacing -1px
+  a
+    &.button
+      position absolute
+      top 0
+      right 0
+      background transparent url(../images/github-button.png) 0 0 no-repeat
+
+.inner
+  position relative
+  width 940px
+  margin 0 auto
+
+#content-wrapper
+  padding-top 30px
+  border-top solid 1px #fff
+
+#main-content
+  float left
+  width 690px
+  img
+    max-width 100%
+  h2
+    margin-bottom 8px
+    font-family 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif
+    font-size 22px
+    font-weight bold
+    color #474747
+    text-indent 4px
+    &:before
+      padding-right 0.3em
+      margin-left -1.5em
+      content "//"
+      color #9ddcff
+
+ul, ol
+  margin-bottom 20px
+
+ul
+  list-style-position inside
+  list-style disc
+  padding-left 20px
+
+ol
+  list-style-position inside
+  list-style decimal
+  padding-left 3px
+
+.clearfix
+  display inline-block
+  display block
+  &:after
+    display block
+    height 0
+    clear both
+    visibility hidden
+    content '.'
+
+*
+  html
+    .clearfix
+      height 1%
+
+@media (min-width: 768px) and (max-width: 959px)
+  .inner
+    width 740px
+  header h1
+    width 340px
+    font-size 50px
+  #main-content
+    width 490px
+    h2:before
+      padding-right 0
+      margin-left 0
+      content none
+
+@media (max-width: 767px)
+  .inner
+    width 93%
+  header
+    padding 20px 0
+    .inner
+      position relative
+    h1
+      font-size 36px
+      width 100%
+    a
+      &.button
+        position relative
+        display inline-block
+        width auto
+        height auto
+        padding 5px 10px
+        margin-top 15px
+        font-size 13px
+        line-height 1
+        color #2879d0
+        text-align center
+        background-color #9ddcff
+        background-image none
+        border-radius 5px
+        -moz-border-radius 5px
+        -webkit-border-radius 5px
+        small
+          display inline
+          font-size 13px
+  #main-content
+    float none
+    width 100% ! important
+    h2:before
+      padding-right 0
+      margin-left 0
+      content none
