@@ -6,9 +6,9 @@
   },
   "private": true,
   "devDependencies": {
-    "del": "^1.1.1",
-    "gulp": "^3.8.11",
-    "gulp-jade": "^1.0.0",
-    "gulp-stylus": "^2.0.1"
+    "del": "~1",
+    "gulp": "~3",
+    "gulp-jade": "~1",
+    "gulp-stylus": "~2"
   }
 }
