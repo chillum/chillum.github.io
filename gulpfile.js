@@ -2,7 +2,7 @@ var gulp   = require('gulp'),
     jade   = require('gulp-jade'),
     stylus = require('gulp-stylus'),
     del    = require('del');
- 
+
 gulp.task('default', function() {
   gulp.src('src/*.styl')
     .pipe(stylus())
@@ -10,6 +10,10 @@ gulp.task('default', function() {
   gulp.src('src/*.jade')
     .pipe(jade({pretty: true}))
     .pipe(gulp.dest('.'));
+});
+
+gulp.task('watch', function() {
+  gulp.watch(['src/*.styl', 'src/*.jade'], ['default']);
 });
 
 gulp.task('clean', function() {
