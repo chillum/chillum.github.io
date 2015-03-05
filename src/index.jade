@@ -2,35 +2,24 @@ doctype html
 html
   head
     meta(charset='utf-8')
-    link(href='https://fonts.googleapis.com/css?family=Architects+Daughter', rel='stylesheet', type='text/css')
-    link(rel='stylesheet', type='text/css', href='screen.css', media='screen')
-    link(rel='stylesheet', type='text/css', href='print.css', media='print')
-    //[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
+    link(rel='stylesheet', type='text/css', href='main.css')
     title Vasily Korytov
   body
-    header
-      .inner
-        h1 Vasily Korytov
-        a.button(href='https://github.com/chillum')
-          small Follow me on
-          |  GitHub
-    #content-wrapper
-      .inner.clearfix
-        section#main-content
-          h2
-            span Who is Mr. Korytov?
-          p
-            a(href='cv/') About me and my IT background
-          p
-            a(href='https://www.youtube.com/user/7enebo/videos') The Seventh Sky music band
-          h2
-            span My software
-          p
-            a(href='https://github.com/chillum/httpstress-go') httpstress-go
-            | : CLI utility for stress testing of HTTP servers with many concurrent connections
-          p
-            a(href='https://github.com/chillum/go4rake') go4rake
-            | : Rake tasks for cross-compiling Go programs
-          p
-            a(href='https://github.com/chillum/autoup') autoup
-            | : Selenium robot for auto-bumping vBulletin posts
+    h1 Vasily Korytov
+    h3 Who is Mr. Korytov?
+    p
+      a(href='cv/') About me and my IT background
+    p
+      a(href='https://www.youtube.com/user/7enebo/videos') The Seventh Sky music band
+    h3 My software
+    p
+      a(href='https://github.com/chillum/httpstress-go') httpstress-go
+      | : CLI utility for stress testing of HTTP servers with many concurrent connections
+    p
+      a(href='https://github.com/chillum/go4rake') go4rake
+      | : Rake tasks for cross-compiling Go programs
+    p
+      a(href='https://github.com/chillum/autoup') autoup
+      | : Selenium robot for auto-bumping vBulletin posts
+    p
+      a(href='https://github.com/chillum') See more at my GitHub page
