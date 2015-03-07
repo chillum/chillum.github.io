@@ -20,6 +20,11 @@ body {
     font-size: 1em;
   }
 }
+img {
+  position: absolute;
+  top: 0.5em;
+  right: 0.7em;
+}
 h1 {
   font: 2.7em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
   font-style: italic;
