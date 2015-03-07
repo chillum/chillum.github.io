@@ -7,13 +7,13 @@ var gulp   = require('gulp'),
 gulp.task('default', ['css', 'html']);
 
 gulp.task('css', function() {
-  gulp.src('src/main.styl')
+  return gulp.src('src/main.styl')
     .pipe(stylus())
     .pipe(gulp.dest('.'));
 });
 
 gulp.task('html', function() {
-  gulp.src(html)
+  return gulp.src(html)
     .pipe(jade({pretty: true}))
     .pipe(gulp.dest('.'));
 });
