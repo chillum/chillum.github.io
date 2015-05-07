@@ -20,11 +20,6 @@ body {
     font-size: 1em;
   }
 }
-img {
-  position: absolute;
-  top: 0.5em;
-  left: 43em;
-}
 h1 {
   font: 2.7em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
   font-style: italic;
@@ -52,6 +47,11 @@ a:active {
 a:visited {
   color: #6c71c4;
   text-decoration: none;
+}
+#avatar {
+  position: absolute;
+  top: 0.5em;
+  left: 43em;
 }
 #text {
   width: 46em;
