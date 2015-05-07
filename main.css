@@ -39,6 +39,9 @@ h2 {
   color: #657b83;
   font: 1.25em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
 }
+p {
+  margin-left: 0.2em;
+}
 a:link,
 a:hover,
 a:active {
