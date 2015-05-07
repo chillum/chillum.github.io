@@ -54,12 +54,12 @@ a:visited {
 }
 .mid,
 .right {
-  border-left: 1px solid #839496;
+  border-left: 1px solid #93a1a1;
   margin-left: 0.7em;
   padding-left: 0.7em;
 }
 .mid {
-  border-right: 1px solid #839496;
+  border-right: 1px solid #93a1a1;
   margin-right: 0.7em;
   padding-right: 0.7em;
 }
