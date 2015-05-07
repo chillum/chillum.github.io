@@ -30,11 +30,12 @@ h1 {
   font-style: italic;
   color: #2aa198;
   margin-left: -0.15em;
+  margin-bottom: 0.6em;
 }
 h2 {
   border-top: 1px solid #839496;
-  padding-top: 0.4em;
-  margin-top: 1.3em;
+  padding-top: 0.6em;
+  margin-top: 1.1em;
   margin-bottom: 0.9em;
   color: #657b83;
   font: 1.25em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
