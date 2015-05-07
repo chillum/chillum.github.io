@@ -31,13 +31,13 @@ h1 {
   color: #2aa198;
   margin-left: -0.15em;
 }
-h3 {
+h2 {
   border-top: 1px solid #839496;
-  padding-top: 0.5em;
+  padding-top: 0.4em;
   margin-top: 1.5em;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.9em;
   color: #657b83;
-  font-family: 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
+  font: 1.25em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
 }
 a:link,
 a:hover,
