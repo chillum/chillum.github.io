@@ -53,6 +53,9 @@ a:visited {
   color: #6c71c4;
   text-decoration: none;
 }
+#text {
+  width: 46em;
+}
 .mid,
 .right {
   border-left: 1px solid #93a1a1;
