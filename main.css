@@ -39,7 +39,7 @@ body {
   }
 }
 h1 {
-  font: 2.7em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
+  font: 2.5em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
   font-style: italic;
   color: #2aa198;
   margin-top: 0.4em;
@@ -52,7 +52,7 @@ h2 {
   margin-top: 1.1em;
   margin-bottom: 0.9em;
   color: #657b83;
-  font: 1.25em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
+  font: 1.2em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
 }
 p {
   margin-left: 0.2em;
