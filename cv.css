@@ -6,6 +6,7 @@ body {
   color: #073642;
   margin-left: -1em;
   margin-right: -1em;
+  overflow-x: hidden;
 }
 a:link,
 a:hover,
