@@ -1,0 +1,108 @@
+@import solarized
+
+sans = 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy
+book = 'American Typewriter', Cambria, Caladea, 'DejaVu Serif Condensed', serif
+
+body
+  font 0.8em book
+  line-height 1.32
+  padding 0 1.5em
+  background-color base2
+  color base02
+  margin-left -1em
+  margin-right -1em
+
+a:link, a:hover, a:active
+  color blue
+  text-decoration none
+a:visited
+  color violet
+  text-decoration none
+
+@media print
+  img
+    position absolute
+    top 0.2em
+    right 0.3em
+  a:link, a:visited, a:hover, a:active
+    color base01
+  // markdown-pdf link fix
+  a:after
+    display none
+
+@media screen
+  body
+    background-color base02
+  #text
+    background-color base2
+    margin auto
+    padding-top 0.5em
+    padding-left 1.4em
+    padding-right 0.5em
+    padding-bottom 0.7em
+  img
+    margin-top -1em
+
+@media screen and (max-width: 700px)
+  #text
+    margin -1em
+
+@media screen and (max-width: 400px)
+  body
+    font-size 0.7em
+
+@media screen and (min-width: 701px)
+  body
+    font-size 0.86em
+  #text
+    width 47em
+
+@media screen and (min-width: 800px)
+  body
+    font-size 1em
+
+img
+  float right
+
+h1
+  font 2.5em sans
+  font-style italic
+  color cyan
+  margin-top 0
+  margin-bottom -0.3em
+  margin-left -0.15em
+
+h2, h3, h4
+  margin-bottom 0.4em
+
+h2
+  color base0
+  margin-top 0.8em
+  font-size 1.4em
+
+h3
+  border-top 1px solid base0
+  padding-top 0.5em
+  margin-top 1em
+  color base00
+
+h4
+  font-family sans
+  color base01
+
+ul
+  margin-top 0.1em
+  margin-bottom 0.2em
+
+li
+  margin-left -2em
+  list-style none
+
+li:before
+  content '• '
+  color base0
+
+.right
+  border-left 1px solid base1
+  margin-left 0.7em
+  padding-left 0.7em
