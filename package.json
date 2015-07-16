@@ -2,7 +2,7 @@
   "description": "http://chillum.github.io",
   "repository": {
     "type": "git",
-    "url": "git@github.com:chillum/chillum.github.io.git"
+    "url": "git@github.com:chillum/chillum.github.io"
   },
   "private": true,
   "devDependencies": {
