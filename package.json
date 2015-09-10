@@ -6,12 +6,12 @@
   },
   "private": true,
   "devDependencies": {
-    "del": "~1",
+    "del": "~2",
     "expand-home-dir": "0.0.2",
     "gulp": "~3",
     "gulp-jade": "~1",
     "gulp-markdown-pdf": "~2",
     "gulp-stylus": "~2",
-    "marked": "~0.3"
+    "jstransformer-marked": "~1"
   }
 }

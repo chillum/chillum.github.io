@@ -29,13 +29,13 @@ gulp.task('index', function() {
     .pipe(gulp.dest('.'));
 });
 
-gulp.task('cv', function () {
+gulp.task('cv', function() {
   return gulp.src('src/cv/*.jade')
     .pipe(jade({pretty: true}))
     .pipe(gulp.dest('cv'));
 });
 
-gulp.task('pdf', function () {
+gulp.task('pdf', function() {
   return gulp.src('src/cv/cv.text')
     .pipe(pdf({cssPath: 'cv.css', remarkable: {html: true}}))
     .pipe(gulp.dest(path('~/Documents')));
