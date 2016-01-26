@@ -10,7 +10,7 @@
     "expand-home-dir": "0.0.2",
     "gulp": "~3",
     "gulp-jade": "~1",
-    "gulp-markdown-pdf": "~2",
+    "gulp-markdown-pdf": "~3",
     "gulp-stylus": "~2",
     "jstransformer-marked": "~1"
   }
