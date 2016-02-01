@@ -1,9 +1,9 @@
-var gulp   = require('gulp'),
-    path   = require('expand-home-dir'),
-    pdf    = require('gulp-markdown-pdf'),
-    jade   = require('gulp-jade'),
-    stylus = require('gulp-stylus'),
-    del    = require('del');
+const gulp   = require('gulp'),
+      path   = require('expand-home-dir'),
+      pdf    = require('gulp-markdown-pdf'),
+      jade   = require('gulp-jade'),
+      stylus = require('gulp-stylus'),
+      del    = require('del');
 
 gulp.task('default', ['css', 'html', 'pdf']);
 
