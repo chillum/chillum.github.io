@@ -1,3 +1,5 @@
+'use strict';
+
 const gulp   = require('gulp'),
       path   = require('expand-home-dir'),
       pdf    = require('gulp-markdown-pdf'),
