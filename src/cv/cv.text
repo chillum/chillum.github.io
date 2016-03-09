@@ -20,10 +20,10 @@ Tools and skills
 * Languages: fluent in Russian and English
 * Operating systems: Linux, Unix
 * Programming languages: Go, JavaScript, Ruby, Python, shell
-* Automation tools: Ansible, Puppet, Jenkins, Selenium
+* Automation tools: Puppet, Ansible, Jenkins, Selenium
 * Version control systems: Git, Subversion
 * Virtualization: Vagrant, Docker, OpenVZ, KVM, Xen
-* Cloud computing: VPC, EC2, S3 & RDS
+* Cloud computing: VPC, EC2, RDS, S3, IAM, CloudWatch
 * Databases: Postgres, Redis, MongoDB, MySQL
 * Networking: OpenVPN, IPSec, Tor, proxies, firewalls
 * Web stuff: AngularJS, Django, Rails, PHP, nginx, Apache
