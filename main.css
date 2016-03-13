@@ -45,7 +45,7 @@ body {
 h1 {
   font: 2em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
   font-style: italic;
-  margin-left: -0.2em;
+  margin-left: -0.15em;
   color: #2aa198;
 }
 h2 {
@@ -57,7 +57,7 @@ h2 {
   font-size: 1.3em;
 }
 h3 {
-  color: #2aa198;
+  color: #b58900;
   font: 1.5em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
 }
 p {
@@ -79,9 +79,6 @@ a:active {
 a:visited {
   color: #6c71c4;
   text-decoration: none;
-}
-#avatar {
-  float: right;
 }
 .mid,
 .right {
