@@ -52,5 +52,5 @@ gulp.task('watch', function() {
 });
 
 gulp.task('clean', function() {
-  del(['*.css', 'index.html', 'cv', 'cv.pdf']);
+  del(['main.css', 'cv.css', 'index.html', 'cv/index.html', 'cv.pdf']);
 });
