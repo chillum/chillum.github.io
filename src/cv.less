@@ -25,18 +25,19 @@ body {
 }
 a:link, a:hover, a:active {
   color: @blue;
-  text-decoration: none;
 }
 a:visited {
   color: @violet;
-  text-decoration: none;
 }
-@media print {
-  a:link, a:visited, a:hover, a:active {
+a:link, a:hover, a:active, a:visited {
+  text-decoration: none;
+  @media print {
     color: @base01;
   }
-  // markdown-pdf link fix
-  a:after {
+}
+// markdown-pdf link fix
+a:after {
+  @media print {
     display: none;
   }
 }

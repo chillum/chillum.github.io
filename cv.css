@@ -32,19 +32,25 @@ a:link,
 a:hover,
 a:active {
   color: #268bd2;
-  text-decoration: none;
 }
 a:visited {
   color: #6c71c4;
+}
+a:link,
+a:hover,
+a:active,
+a:visited {
   text-decoration: none;
 }
 @media print {
   a:link,
-  a:visited,
   a:hover,
-  a:active {
+  a:active,
+  a:visited {
     color: #586e75;
   }
+}
+@media print {
   a:after {
     display: none;
   }
