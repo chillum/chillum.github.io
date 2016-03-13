@@ -1,0 +1,100 @@
+@import 'solarized';
+
+@sans: 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
+@book: 'American Typewriter', Cambria, Caladea, 'DejaVu Serif Condensed', serif;
+
+body {
+  font: 0.8em @book;
+  line-height: 1.32;
+  padding: 0 1.5em;
+  background-color: @base02;
+  color: @base02;
+  margin-left: -1em;
+  margin-right: -1em;
+  overflow-x: hidden;
+}
+#text {
+  background-color: @base2;
+  margin: auto;
+  padding-top: 0.5em;
+  padding-left: 1.4em;
+  padding-right: 0.5em;
+  padding-bottom: 0.7em;
+}
+@media screen and (max-width: 700px) {
+  #text {
+    margin-top: -1em;
+    margin-bottom: -1em;
+    margin-left: -1em;
+    margin-right: -0.6em;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 0.7em;
+  }
+}
+@media screen and (min-width: 701px) {
+  body {
+    font-size: 0.864em;
+  }
+  #text {
+    width: 46em
+  }
+}
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 1em;
+  }
+}
+h1 {
+  font: 2.5em @sans;
+  font-style: italic;
+  color: @cyan;
+  margin-top: 0.4em;
+  margin-left: -0.15em;
+  margin-bottom: 0.6em;
+}
+h2 {
+  border-top: 1px solid @base0;
+  padding-top: 0.6em;
+  margin-top: 1.1em;
+  margin-bottom: 0.8em;
+  color: @base0;
+  font-size: 1.3em;
+}
+h3 {
+  color: @base0;
+  font-size: 1.15em;
+}
+p {
+  margin-left: 0.2em;
+}
+table {
+  margin-top: -1em;
+  margin-bottom: -0.5em;
+}
+td {
+  padding-right: 1em;
+}
+a:link, a:hover, a:active {
+  color: @blue;
+  text-decoration: none;
+}
+a:visited {
+  color: @violet;
+  text-decoration: none;
+}
+#avatar {
+  float: right;
+}
+.mid, .right {
+  border-left: 1px solid @base1;
+  margin-left: 0.7em;
+  padding-left: 0.7em;
+}
+.mid {
+  border-right: 1px solid @base1;
+  margin-right: 0.7em;
+  padding-right: 0.7em;
+}

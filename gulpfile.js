@@ -4,7 +4,7 @@ const gulp   = require('gulp'),
       path   = require('expand-home-dir'),
       pdf    = require('gulp-markdown-pdf'),
       jade   = require('gulp-jade'),
-      stylus = require('gulp-stylus'),
+      less   = require('gulp-less'),
       del    = require('del');
 
 gulp.task('default', ['css', 'html', 'pdf']);
@@ -12,14 +12,14 @@ gulp.task('default', ['css', 'html', 'pdf']);
 gulp.task('css', ['main.css', 'cv.css']);
 
 gulp.task('main.css', function() {
-  return gulp.src('src/main.styl')
-    .pipe(stylus())
+  return gulp.src('src/main.less')
+    .pipe(less())
     .pipe(gulp.dest('.'));
 });
 
 gulp.task('cv.css', function() {
-  return gulp.src('src/cv.styl')
-    .pipe(stylus())
+  return gulp.src('src/cv.less')
+    .pipe(less())
     .pipe(gulp.dest('.'));
 });
 
@@ -44,7 +44,7 @@ gulp.task('pdf', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('src/*.styl',     ['css']);
+  gulp.watch('src/*.less',     ['css']);
   gulp.watch('src/*.jade',     ['index']);
   gulp.watch('src/cv/*.jade',  ['cv']);
   gulp.watch('src/cv/cv.text', ['cv', 'pdf']);
