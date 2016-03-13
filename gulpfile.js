@@ -1,7 +1,6 @@
 'use strict';
 
 const gulp   = require('gulp'),
-      path   = require('expand-home-dir'),
       pdf    = require('gulp-markdown-pdf'),
       jade   = require('gulp-jade'),
       less   = require('gulp-less'),
@@ -40,7 +39,7 @@ gulp.task('cv', function() {
 gulp.task('pdf', function() {
   return gulp.src('src/cv/cv.text')
     .pipe(pdf({cssPath: 'cv.css', remarkable: {html: true}}))
-    .pipe(gulp.dest(path('~/Documents')));
+    .pipe(gulp.dest('.'));
 });
 
 gulp.task('watch', function() {
@@ -52,5 +51,5 @@ gulp.task('watch', function() {
 });
 
 gulp.task('clean', function() {
-  del(['*.css', '*.html', 'cv', path('~/Documents/cv.pdf')], {force: true});
+  del(['*.css', '*.html', 'cv', 'cv.pdf']);
 });

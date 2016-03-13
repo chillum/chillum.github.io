@@ -7,7 +7,6 @@
   "private": true,
   "devDependencies": {
     "del": "~2",
-    "expand-home-dir": "0.0.2",
     "gulp": "~3",
     "gulp-jade": "~1",
     "gulp-less": "~3",
