@@ -8,52 +8,9 @@ body {
   margin-right: -1em;
   overflow-x: hidden;
 }
-a:link,
-a:hover,
-a:active {
-  color: #268bd2;
-  text-decoration: none;
-}
-a:visited {
-  color: #6c71c4;
-  text-decoration: none;
-}
-@media print {
-  img {
-    position: absolute;
-    top: 0.2em;
-    right: 0.3em;
-  }
-  a:link,
-  a:visited,
-  a:hover,
-  a:active {
-    color: #586e75;
-  }
-  a:after {
-    display: none;
-  }
-}
 @media screen {
   body {
     background-color: #073642;
-  }
-  #text {
-    background-color: #eee8d5;
-    margin: auto;
-    padding-top: 0.5em;
-    padding-left: 1.4em;
-    padding-right: 0.5em;
-    padding-bottom: 0.7em;
-  }
-  img {
-    margin-top: -1em;
-  }
-}
-@media screen and (max-width: 700px) {
-  #text {
-    margin: -1em;
-    padding-right: 1.5em;
   }
 }
 @media screen and (max-width: 400px) {
@@ -65,17 +22,68 @@ a:visited {
   body {
     font-size: 0.86em;
   }
-  #text {
-    width: 47em;
-  }
 }
 @media screen and (min-width: 800px) {
   body {
     font-size: 1em;
   }
 }
+a:link,
+a:hover,
+a:active {
+  color: #268bd2;
+  text-decoration: none;
+}
+a:visited {
+  color: #6c71c4;
+  text-decoration: none;
+}
+@media print {
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: #586e75;
+  }
+  a:after {
+    display: none;
+  }
+}
 img {
   float: right;
+}
+@media screen {
+  img {
+    margin-top: -1em;
+  }
+}
+@media print {
+  img {
+    position: absolute;
+    top: 0.2em;
+    right: 0.3em;
+  }
+}
+@media screen {
+  #text {
+    background-color: #eee8d5;
+    margin: auto;
+    padding-top: 0.5em;
+    padding-left: 1.4em;
+    padding-right: 0.5em;
+    padding-bottom: 0.7em;
+  }
+}
+@media screen and (max-width: 700px) {
+  #text {
+    margin: -1em;
+    padding-right: 1.5em;
+  }
+}
+@media screen and (min-width: 701px) {
+  #text {
+    width: 47em;
+  }
 }
 h1 {
   font: 2.5em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
