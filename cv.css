@@ -28,29 +28,17 @@ body {
     font-size: 1em;
   }
 }
-a:link,
-a:hover,
-a:active {
+a {
   color: #268bd2;
+  text-decoration: none;
 }
 a:visited {
   color: #6c71c4;
 }
-a:link,
-a:hover,
-a:active,
-a:visited {
-  text-decoration: none;
-}
 @media print {
-  a:link,
-  a:hover,
-  a:active,
-  a:visited {
+  a {
     color: #586e75;
   }
-}
-@media print {
   a:after {
     display: none;
   }
@@ -74,10 +62,7 @@ img {
   #text {
     background-color: #eee8d5;
     margin: auto;
-    padding-top: 0.5em;
-    padding-left: 1.4em;
-    padding-right: 0.5em;
-    padding-bottom: 0.7em;
+    padding: 0.5em 0.5em 0.7em 1.4em;
   }
 }
 @media screen and (max-width: 700px) {
