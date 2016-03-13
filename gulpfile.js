@@ -4,6 +4,7 @@ const gulp   = require('gulp'),
       pdf    = require('gulp-markdown-pdf'),
       jade   = require('gulp-jade'),
       less   = require('gulp-less'),
+      rename = require("gulp-rename"),
       del    = require('del');
 
 gulp.task('default', ['css', 'html', 'pdf']);
@@ -31,23 +32,23 @@ gulp.task('index', function() {
 });
 
 gulp.task('cv', function() {
-  return gulp.src('src/cv/index.jade')
+  return gulp.src('src/cv.jade')
     .pipe(jade({pretty: true}))
+    .pipe(rename('index.html'))
     .pipe(gulp.dest('cv'));
 });
 
 gulp.task('pdf', function() {
-  return gulp.src('src/cv/cv.text')
+  return gulp.src('src/cv.text')
     .pipe(pdf({cssPath: 'cv.css', remarkable: {html: true}}))
     .pipe(gulp.dest('.'));
 });
 
 gulp.task('watch', function() {
-  gulp.watch('src/*.less',        ['css']);
-  gulp.watch('src/*.jade',        ['index']);
-  gulp.watch('src/cv/index.jade', ['cv']);
-  gulp.watch('src/cv/cv.text',    ['cv', 'pdf']);
-  gulp.watch('cv.css',            ['pdf']);
+  gulp.watch('src/*.less',    ['css']);
+  gulp.watch('src/*.jade',    ['html']);
+  gulp.watch('src/cv.text',   ['cv', 'pdf']);
+  gulp.watch('cv.css',        ['pdf']);
 });
 
 gulp.task('clean', function() {
