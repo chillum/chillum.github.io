@@ -11,7 +11,7 @@
     "gulp-jade": "~1",
     "gulp-less": "~3",
     "gulp-markdown-pdf": "~3",
-    "gulp-rename": "^1.2.2",
+    "gulp-rename": "~1",
     "jstransformer-marked": "~1"
   }
 }
