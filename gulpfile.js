@@ -44,12 +44,12 @@ gulp.task('pdf', function() {
 
 gulp.task('watch', function() {
   gulp.watch('src/*.less',        ['css']);
-  gulp.watch('src/index.jade',    ['index']);
+  gulp.watch('src/*.jade',        ['index']);
   gulp.watch('src/cv/index.jade', ['cv']);
   gulp.watch('src/cv/cv.text',    ['cv', 'pdf']);
   gulp.watch('cv.css',            ['pdf']);
 });
 
 gulp.task('clean', function() {
-  del(['*.css', '*.html', 'cv', 'cv.pdf']);
+  del(['*.css', 'index.html', 'cv', 'cv.pdf']);
 });
