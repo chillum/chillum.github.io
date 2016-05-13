@@ -39,16 +39,16 @@ gulp.task('cv', function() {
 });
 
 gulp.task('pdf', function() {
-  return gulp.src('src/cv.text')
+  return gulp.src('src/cv.md')
     .pipe(pdf({cssPath: 'cv.css', remarkable: {html: true}}))
     .pipe(gulp.dest('.'));
 });
 
 gulp.task('watch', function() {
-  gulp.watch('src/*.less',    ['css']);
-  gulp.watch('src/*.jade',    ['html']);
-  gulp.watch('src/cv.text',   ['cv', 'pdf']);
-  gulp.watch('cv.css',        ['pdf']);
+  gulp.watch('src/*.less',  ['css']);
+  gulp.watch('src/*.jade',  ['html']);
+  gulp.watch('src/cv.md',   ['cv', 'pdf']);
+  gulp.watch('cv.css',      ['pdf']);
 });
 
 gulp.task('clean', function() {
