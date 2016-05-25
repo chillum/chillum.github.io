@@ -4,7 +4,7 @@ const gulp   = require('gulp'),
       pdf    = require('gulp-markdown-pdf'),
       pug    = require('gulp-pug'),
       less   = require('gulp-less'),
-      rename = require("gulp-rename"),
+      rename = require('gulp-rename'),
       del    = require('del');
 
 gulp.task('default', ['css', 'html', 'pdf']);
