@@ -2,7 +2,7 @@
 
 const gulp   = require('gulp'),
       pdf    = require('gulp-markdown-pdf'),
-      jade   = require('gulp-jade'),
+      pug    = require('gulp-pug'),
       less   = require('gulp-less'),
       rename = require("gulp-rename"),
       del    = require('del');
@@ -26,14 +26,14 @@ gulp.task('cv.css', function() {
 gulp.task('html', ['index', 'cv']);
 
 gulp.task('index', function() {
-  return gulp.src('src/index.jade')
-    .pipe(jade({pretty: true}))
+  return gulp.src('src/index.pug')
+    .pipe(pug({pretty: true}))
     .pipe(gulp.dest('.'));
 });
 
 gulp.task('cv', function() {
-  return gulp.src('src/cv.jade')
-    .pipe(jade({pretty: true}))
+  return gulp.src('src/cv.pug')
+    .pipe(pug({pretty: true}))
     .pipe(rename('index.html'))
     .pipe(gulp.dest('cv'));
 });
@@ -46,7 +46,7 @@ gulp.task('pdf', function() {
 
 gulp.task('watch', function() {
   gulp.watch('src/*.less',  ['css']);
-  gulp.watch('src/*.jade',  ['html']);
+  gulp.watch('src/*.pug',   ['html']);
   gulp.watch('src/cv.md',   ['cv', 'pdf']);
   gulp.watch('cv.css',      ['pdf']);
 });
