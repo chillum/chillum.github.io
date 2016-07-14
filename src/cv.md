@@ -1,9 +1,9 @@
-![](http://www.gravatar.com/avatar/a2ee72d2d877079c22f86f0c75b07068.png)
+![](https://www.gravatar.com/avatar/a2ee72d2d877079c22f86f0c75b07068.png)
 # Vasily Korytov
 
 ## Systems&nbsp;architect, DevOps, Developer, Linux&nbsp;engineer
 
-[http://chillum.github.io](http://chillum.github.io)<span class="right">[vasily.korytov@icloud.com](mailto:vasily.korytov@icloud.com)</span>
+[https://chillum.github.io](https://chillum.github.io)<span class="right">[vasily.korytov@icloud.com](mailto:vasily.korytov@icloud.com)</span>
 
 
 Education
