@@ -32,7 +32,8 @@ Tools and skills
 Work experience
 ---------------
 
-### DevOps, Fortifier (since 2015)
+### Sr. DevOps/Systems Architect, Fortifier (since 2015)
+
 
 ### DevOps, Roch Systems LLC (2014)
 
