@@ -19,11 +19,11 @@ Tools and skills
 
 * Languages: fluent in Russian and English
 * Operating systems: Linux, Unix
-* Programming languages: Go, JavaScript, Ruby, Python, shell
+* Programming languages: Go, JavaScript, Ruby, Python, Groovy, shell
 * Automation tools: Ansible, Puppet, Jenkins, Selenium
 * Version control systems: Git, Subversion
 * Virtualization: Vagrant, Docker, OpenVZ, KVM, Xen
-* Cloud computing: VPC, EC2, RDS, S3, IAM, CloudWatch
+* Cloud computing: EC2, RDS, CloudWatch, Elastic Beanstalk, ELB
 * Databases: Postgres, Redis, MongoDB, MySQL
 * Networking: OpenVPN, IPSec, Tor, proxies, firewalls
 * Web stuff: AngularJS, Django, Rails, PHP, nginx, Apache
@@ -33,6 +33,14 @@ Work experience
 ---------------
 
 ### Sr. DevOps/Systems Architect, Fortifier (since 2015)
+
+* Designed the IT ecosystem for the company
+* AWS environments set-up and administration
+* Infrastructure as code, set-up and deploy automation
+* Development and operations
+* Information systems audit
+* Virtualization
+* Troubleshooting
 
 
 ### DevOps, Roch Systems LLC (2014)
