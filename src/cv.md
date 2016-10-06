@@ -23,7 +23,7 @@ Tools and skills
 * Automation tools: Ansible, Puppet, Jenkins, Selenium
 * Version control systems: Git, Subversion
 * Virtualization: Vagrant, Docker, OpenVZ, KVM, Xen
-* Cloud computing: EC2, RDS, CloudWatch, Elastic Beanstalk, ELB
+* Cloud computing: AWS, Azure
 * Databases: Postgres, Redis, MongoDB, MySQL
 * Networking: OpenVPN, IPSec, Tor, proxies, firewalls
 * Web stuff: AngularJS, Django, Rails, PHP, nginx, Apache
@@ -35,7 +35,7 @@ Work experience
 ### Sr. DevOps/Systems Architect, Fortifier (since 2015)
 
 * Designed the IT ecosystem for the company
-* AWS environments set-up and administration
+* AWS and Azure environments set-up and administration
 * Infrastructure as code, set-up and deploy automation
 * Development and operations
 * Information systems audit
