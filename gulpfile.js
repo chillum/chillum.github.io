@@ -40,7 +40,7 @@ gulp.task('cv', function() {
 
 gulp.task('pdf', function() {
   return gulp.src('src/cv.md')
-    .pipe(pdf({cssPath: 'cv.css', remarkable: {html: true}}))
+    .pipe(pdf({cssPath: 'cv.css', paperBorder: '1cm', remarkable: {html: true}}))
     .pipe(gulp.dest('.'));
 });
 

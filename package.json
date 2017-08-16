@@ -1,5 +1,5 @@
 {
-  "description": "http://chillum.github.io",
+  "description": "https://chillum.github.io",
   "repository": {
     "type": "git",
     "url": "git@github.com:chillum/chillum.github.io"
@@ -9,7 +9,7 @@
     "del": "~3",
     "gulp": "~3",
     "gulp-less": "~3",
-    "gulp-markdown-pdf": "~3",
+    "gulp-markdown-pdf": "~5",
     "gulp-pug": "~3",
     "gulp-rename": "~1",
     "jstransformer-marked": "~1"
