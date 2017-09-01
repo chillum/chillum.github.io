@@ -32,15 +32,16 @@ Tools and skills
 Work experience
 ---------------
 
-### Sr. DevOps/Systems Architect, Fortifier (since 2015)
+### Sr. DevOps/Systems architect, Fortifier (since 2015)
 
 * Designed the IT ecosystem for the company
 * AWS and Azure environments set-up and administration
 * Infrastructure as code, set-up and deploy automation
 * Development and operations
-* Information systems audit
 * Virtualization
+* Information systems audit
 * Troubleshooting
+* Code review
 
 
 ### DevOps, Roch Systems LLC (2014)
@@ -114,7 +115,7 @@ Work experience
   * VPN
   * Samba domains
   * IP telephony
-* Set-up, administration and user-support of Windows workstations
+* Set-up, administration and tech support of Windows workstations
 * Developed a backup system for the company
 * Web design and development
 
@@ -136,8 +137,8 @@ Work experience
 * Maintained hardware and software IT infrastructure of the Moscow
   office, including workstations, servers and network equipment
 * Administration of Unix and Windows servers
-* Set-up, administration and user-support of Windows and Mac OS workstations
-* Ethernet network installation, hardware configuration of workstations
+* Set-up, administration and tech support of Windows and Mac OS workstations
+* Ethernet network installation, hardware configuration and specs
 
 
 ### Free-lance Unix engineer (2001-2002)
