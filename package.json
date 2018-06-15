@@ -10,7 +10,7 @@
     "gulp": "~3",
     "gulp-less": "~3",
     "gulp-markdown-pdf": "~5",
-    "gulp-pug": "~3",
+    "gulp-pug": "~4",
     "gulp-rename": "~1",
     "jstransformer-marked": "~1"
   }
