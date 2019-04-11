@@ -1,56 +1,58 @@
 'use strict';
 
-const gulp   = require('gulp'),
-      pdf    = require('gulp-markdown-pdf'),
-      pug    = require('gulp-pug'),
-      less   = require('gulp-less'),
-      rename = require('gulp-rename'),
-      del    = require('del');
+const { task, series, parallel,
+  src, dest, watch }  = require('gulp'),
+  pdf                 = require('gulp-markdown-pdf'),
+  pug                 = require('gulp-pug'),
+  less                = require('gulp-less'),
+  rename              = require('gulp-rename'),
+  del                 = require('del');
 
-gulp.task('default', ['css', 'html', 'pdf']);
-
-gulp.task('css', ['main.css', 'cv.css']);
-
-gulp.task('main.css', function() {
-  return gulp.src('src/main.less')
+task('main.css', function() {
+  return src('src/main.less')
     .pipe(less())
-    .pipe(gulp.dest('.'));
+    .pipe(dest('.'));
 });
 
-gulp.task('cv.css', function() {
-  return gulp.src('src/cv.less')
+task('cv.css', function() {
+  return src('src/cv.less')
     .pipe(less())
-    .pipe(gulp.dest('.'));
+    .pipe(dest('.'));
 });
 
-gulp.task('html', ['index', 'cv']);
+task('css', parallel('main.css', 'cv.css'));
 
-gulp.task('index', function() {
-  return gulp.src('src/index.pug')
+task('index', function() {
+  return src('src/index.pug')
     .pipe(pug({pretty: true}))
-    .pipe(gulp.dest('.'));
+    .pipe(dest('.'));
 });
 
-gulp.task('cv', function() {
-  return gulp.src('src/cv.pug')
+task('cv', function() {
+  return src('src/cv.pug')
     .pipe(pug({pretty: true}))
     .pipe(rename('index.html'))
-    .pipe(gulp.dest('cv'));
+    .pipe(dest('cv'));
 });
 
-gulp.task('pdf', function() {
-  return gulp.src('src/cv.md')
+task('html', parallel('index', 'cv'));
+
+task('pdf', function() {
+  return src('src/cv.md')
     .pipe(pdf({cssPath: 'cv.css', paperBorder: '1cm', remarkable: {html: true}}))
-    .pipe(gulp.dest('.'));
+    .pipe(dest('.'));
 });
 
-gulp.task('watch', function() {
-  gulp.watch('src/*.less',  ['css']);
-  gulp.watch('src/*.pug',   ['html']);
-  gulp.watch('src/cv.md',   ['cv', 'pdf']);
-  gulp.watch('cv.css',      ['pdf']);
+task('default', series('css', 'html', 'pdf'));
+
+task('watch', function() {
+  watch('src/*.less', series('css'));
+  watch('src/*.pug',  series('html'));
+  watch('src/cv.md',  series('cv', 'pdf'));
+  watch('cv.css',     series('pdf'));
 });
 
-gulp.task('clean', function() {
-  del(['main.css', 'cv.css', 'index.html', 'cv/index.html', 'cv.pdf']);
+task('clean', function(done) {
+  del.sync(['main.css', 'cv.css', 'index.html', 'cv/index.html', 'cv.pdf']);
+  done();
 });

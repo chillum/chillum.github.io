@@ -1,4 +1,4 @@
-### http://chillum.github.io
+### https://chillum.github.io
 
 To set up developer's environment:
 

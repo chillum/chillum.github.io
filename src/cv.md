@@ -26,19 +26,20 @@ Tools and skills
 * Cloud computing: AWS, Azure
 * Databases: Postgres, Redis, MongoDB, MySQL
 * Networking: OpenVPN, IPSec, Tor, proxies, firewalls
-* Web stuff: AngularJS, Django, Rails, PHP, nginx, Apache
+* Web stuff: AngularJS, Django, Rails, PHP, Tomcat, nginx, Apache
 
 
 Work experience
 ---------------
 
-### Sr. DevOps/Systems architect, Fortifier (since 2015)
+### Sr. DevOps/Systems architect, Fortifier (2015-2019)
 
 * Designed the IT ecosystem for the company
+* DevOps team formation and mentoring
 * AWS and Azure environments set-up and administration
-* Infrastructure as code, set-up and deploy automation
+* Infrastructure as code, set-up and delivery automation
 * Development and operations
-* Virtualization
+* Containerization
 * Information systems audit
 * Troubleshooting
 * Code review

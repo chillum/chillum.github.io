@@ -6,10 +6,10 @@
   },
   "private": true,
   "devDependencies": {
-    "del": "~3",
-    "gulp": "~3",
-    "gulp-less": "~3",
-    "gulp-markdown-pdf": "~5",
+    "del": "~4",
+    "gulp": "~4",
+    "gulp-less": "~4",
+    "gulp-markdown-pdf": "~7",
     "gulp-pug": "~4",
     "gulp-rename": "~1",
     "jstransformer-marked": "~1"
