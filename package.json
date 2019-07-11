@@ -6,9 +6,10 @@
   },
   "private": true,
   "dependencies": {
-    "del": "~4",
+    "del": "~5",
     "gulp": "~4",
     "gulp-less": "~4",
     "gulp-pug": "~4"
-  }
+  },
+  "version": "0.0.0"
 }
