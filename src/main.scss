@@ -2,11 +2,11 @@
 @import 'fonts';
 
 body {
-  font: 0.8em @book;
+  font: 0.8em $book;
   line-height: 1.32;
   padding: 0 1.5em;
-  background-color: @base02;
-  color: @base02;
+  background-color: $base02;
+  color: $base02;
   margin-left: -1em;
   margin-right: -1em;
   overflow-x: hidden;
@@ -21,7 +21,7 @@ body {
   }
 }
 #text {
-  background-color: @base2;
+  background-color: $base2;
   margin: auto;
   padding: 0.5em 0.5em 0.7em 1.4em;
   @media screen and (max-width: 700px) {
@@ -32,22 +32,22 @@ body {
   }
 }
 h1 {
-  font: 2em @sans;
+  font: 2em $sans;
   font-style: italic;
   margin-left: -0.15em;
-  color: @cyan;
+  color: $cyan;
 }
 h2 {
-  border-top: 1px solid @base0;
+  border-top: 1px solid $base0;
   padding-top: 0.6em;
   margin-top: 1.1em;
   margin-bottom: 0.8em;
-  color: @base0;
+  color: $base0;
   font-size: 1.3em;
 }
 h3 {
-  color: @yellow;
-  font: 1.5em @sans;
+  color: $yellow;
+  font: 1.5em $sans;
 }
 p {
   margin-left: 0.2em;
@@ -61,18 +61,18 @@ td {
 }
 a {
   text-decoration: none;
-  color: @blue;
+  color: $blue;
   &:visited {
-    color: @violet;
+    color: $violet;
   }
 }
 .mid, .right {
-  border-left: 1px solid @base1;
+  border-left: 1px solid $base1;
   margin-left: 0.7em;
   padding-left: 0.7em;
 }
 .mid {
-  border-right: 1px solid @base1;
+  border-right: 1px solid $base1;
   margin-right: 0.7em;
   padding-right: 0.7em;
 }

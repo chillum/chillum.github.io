@@ -2,7 +2,6 @@
 
 To set up developer's environment:
 
-* Install [Node.js](https://nodejs.org/en/download/), [Yarn](https://yarnpkg.com/en/docs/install)
-  and [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
-* Run `yarn install` in a clone of this repo
-* Run `gulp -T` to see the build tasks
+* Install [Ruby](https://www.ruby-lang.org/en/downloads/), [Pandoc](https://pandoc.org/installing.html) and [Sass](https://github.com/sass/dart-sass#using-dart-sass)
+* `gem install haml pandoc-ruby`
+* Run `rake -T` to see the build tasks

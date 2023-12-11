@@ -1,5 +1,5 @@
 body {
-  font: 0.8em 'American Typewriter', Cambria, Caladea, 'DejaVu Serif Condensed', serif;
+  font: 0.8em "American Typewriter", Cambria, Caladea, "DejaVu Serif Condensed", serif;
   line-height: 1.32;
   padding: 0 1.5em;
   background-color: #073642;
@@ -23,6 +23,7 @@ body {
     font-size: 1em;
   }
 }
+
 #text {
   background-color: #eee8d5;
   margin: auto;
@@ -38,12 +39,14 @@ body {
     width: 46em;
   }
 }
+
 h1 {
-  font: 2em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
+  font: 2em "Marker Felt", "Segoe Print", "Liberation Sans Narrow", "DejaVu Sans Condensed", fantasy;
   font-style: italic;
   margin-left: -0.15em;
   color: #2aa198;
 }
+
 h2 {
   border-top: 1px solid #839496;
   padding-top: 0.6em;
@@ -52,20 +55,25 @@ h2 {
   color: #839496;
   font-size: 1.3em;
 }
+
 h3 {
   color: #b58900;
-  font: 1.5em 'Marker Felt', 'Segoe Print', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', fantasy;
+  font: 1.5em "Marker Felt", "Segoe Print", "Liberation Sans Narrow", "DejaVu Sans Condensed", fantasy;
 }
+
 p {
   margin-left: 0.2em;
 }
+
 table {
   margin-top: -0.65em;
   margin-bottom: -0.5em;
 }
+
 td {
   padding-right: 3em;
 }
+
 a {
   text-decoration: none;
   color: #268bd2;
@@ -73,12 +81,13 @@ a {
 a:visited {
   color: #6c71c4;
 }
-.mid,
-.right {
+
+.mid, .right {
   border-left: 1px solid #93a1a1;
   margin-left: 0.7em;
   padding-left: 0.7em;
 }
+
 .mid {
   border-right: 1px solid #93a1a1;
   margin-right: 0.7em;
