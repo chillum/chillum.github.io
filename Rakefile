@@ -4,7 +4,7 @@ task default: %i[main cv css]
 
 desc 'index.html'
 task :main do
-  sh 'haml src/index.haml > index.html'
+  sh 'haml src/main.haml > index.html'
 end
 
 desc 'cv/index.html, cv.docx'

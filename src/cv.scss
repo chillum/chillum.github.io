@@ -1,5 +1,4 @@
-@import 'solarized';
-@import 'fonts';
+@import 'solarized', 'fonts';
 
 body {
   font: 0.8em $book;
@@ -10,6 +9,7 @@ body {
   margin-left: -1em;
   margin-right: -1em;
   overflow-x: hidden;
+
   @media screen {
     background-color: $base02;
   }
@@ -29,21 +29,23 @@ body {
 a {
   color: $blue;
   text-decoration: none;
+
   &:visited {
     color: $violet;
   }
   @media print {
     color: $base01;
-    // markdown-pdf link fix
-    &:after {
+
+    &::after { // markdown-pdf link fix
       display: none;
     }
   }
 }
 img {
   float: right;
+
   @media screen {
-      margin-top: -1em;
+    margin-top: -1em;
   }
   @media print {
     position: absolute;
@@ -98,12 +100,13 @@ ul {
 li {
   margin-left: -2em;
   list-style: none;
-  &:before {
+
+  &::before {
     content: '• ';
     color: $base0;
   }
 }
-.mid, .right {
+.right {
   border-left: 1px solid $base1;
   margin-left: 0.7em;
   padding-left: 0.7em;

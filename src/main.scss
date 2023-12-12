@@ -1,5 +1,4 @@
-@import 'solarized';
-@import 'fonts';
+@import 'solarized', 'fonts';
 
 body {
   font: 0.8em $book;
@@ -10,6 +9,7 @@ body {
   margin-left: -1em;
   margin-right: -1em;
   overflow-x: hidden;
+
   @media screen and (max-width: 400px) {
     font-size: 0.7em;
   }
@@ -24,6 +24,7 @@ body {
   background-color: $base2;
   margin: auto;
   padding: 0.5em 0.5em 0.7em 1.4em;
+
   @media screen and (max-width: 700px) {
     margin: -1em -0.6em -1em -1em;
   }
@@ -62,17 +63,13 @@ td {
 a {
   text-decoration: none;
   color: $blue;
+
   &:visited {
     color: $violet;
   }
 }
-.mid, .right {
+.right {
   border-left: 1px solid $base1;
   margin-left: 0.7em;
   padding-left: 0.7em;
-}
-.mid {
-  border-right: 1px solid $base1;
-  margin-right: 0.7em;
-  padding-right: 0.7em;
 }

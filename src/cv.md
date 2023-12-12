@@ -3,7 +3,7 @@
 ## Lead, Architect, DevOps, Developer, Linux&nbsp;engineer
 
 Dnipro, Ukraine
-<span class="mid">[vasily.korytov@icloud.com](mailto:vasily.korytov@icloud.com)</span>
+<span class="right">[vasily.korytov@icloud.com](mailto:vasily.korytov@icloud.com)</span>
 <span class="right">[chillum.github.io](https://chillum.github.io)</span>
 
 Summary
