@@ -1,17 +1,18 @@
-@import 'solarized', 'fonts';
+@use 'solarized' as colors;
+@use 'fonts';
 
 body {
-  font: 0.8em $book;
+  font: 0.8em fonts.$book;
   line-height: 1.32;
   padding: 0 1.5em;
-  background-color: $base2;
-  color: $base02;
+  background-color: colors.$base2;
+  color: colors.$base02;
   margin-left: -1em;
   margin-right: -1em;
   overflow-x: hidden;
 
   @media screen {
-    background-color: $base02;
+    background-color: colors.$base02;
   }
   @media screen and (max-width: 400px) {
     font-size: 0.7em;
@@ -27,14 +28,14 @@ body {
   }
 }
 a {
-  color: $blue;
+  color: colors.$blue;
   text-decoration: none;
 
   &:visited {
-    color: $violet;
+    color: colors.$violet;
   }
   @media print {
-    color: $base01;
+    color: colors.$base01;
 
     &::after { // markdown-pdf link fix
       display: none;
@@ -55,7 +56,7 @@ img {
 }
 #text {
   @media screen {
-    background-color: $base2;
+    background-color: colors.$base2;
     margin: auto;
     padding: 0.5em 0.5em 0.7em 1.4em;
   }
@@ -68,9 +69,9 @@ img {
   }
 }
 h1 {
-  font: 2.5em $sans;
+  font: 2.5em fonts.$sans;
   font-style: italic;
-  color: $cyan;
+  color: colors.$cyan;
   margin-top: 0;
   margin-bottom: -0.3em;
   margin-left: -0.15em;
@@ -79,19 +80,19 @@ h2, h3, h4 {
   margin-bottom: 0.4em;
 }
 h2 {
-  color: $base0;
+  color: colors.$base0;
   margin-top: 0.8em;
   font-size: 1.4em;
 }
 h3 {
-  border-top: 1px solid $base0;
+  border-top: 1px solid colors.$base0;
   padding-top: 0.5em;
   margin-top: 1em;
-  color: $base00;
+  color: colors.$base00;
 }
 h4 {
-  font-family: $sans;
-  color: $base01;
+  font-family: fonts.$sans;
+  color: colors.$base01;
 }
 ul {
   margin-top: 0.1em;
@@ -103,11 +104,11 @@ li {
 
   &::before {
     content: '• ';
-    color: $base0;
+    color: colors.$base0;
   }
 }
 .right {
-  border-left: 1px solid $base1;
+  border-left: 1px solid colors.$base1;
   margin-left: 0.7em;
   padding-left: 0.7em;
 }

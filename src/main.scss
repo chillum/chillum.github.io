@@ -1,11 +1,12 @@
-@import 'solarized', 'fonts';
+@use 'solarized' as colors;
+@use 'fonts';
 
 body {
-  font: 0.8em $book;
+  font: 0.8em fonts.$book;
   line-height: 1.32;
   padding: 0 1.5em;
-  background-color: $base02;
-  color: $base02;
+  background-color: colors.$base02;
+  color: colors.$base02;
   margin-left: -1em;
   margin-right: -1em;
   overflow-x: hidden;
@@ -21,7 +22,7 @@ body {
   }
 }
 #text {
-  background-color: $base2;
+  background-color: colors.$base2;
   margin: auto;
   padding: 0.5em 0.5em 0.7em 1.4em;
 
@@ -33,22 +34,22 @@ body {
   }
 }
 h1 {
-  font: 2em $sans;
+  font: 2em fonts.$sans;
   font-style: italic;
   margin-left: -0.15em;
-  color: $cyan;
+  color: colors.$cyan;
 }
 h2 {
-  border-top: 1px solid $base0;
+  border-top: 1px solid colors.$base0;
   padding-top: 0.6em;
   margin-top: 1.1em;
   margin-bottom: 0.8em;
-  color: $base0;
+  color: colors.$base0;
   font-size: 1.3em;
 }
 h3 {
-  color: $yellow;
-  font: 1.5em $sans;
+  color: colors.$yellow;
+  font: 1.5em fonts.$sans;
 }
 p {
   margin-left: 0.2em;
@@ -62,14 +63,14 @@ td {
 }
 a {
   text-decoration: none;
-  color: $blue;
+  color: colors.$blue;
 
   &:visited {
-    color: $violet;
+    color: colors.$violet;
   }
 }
 .right {
-  border-left: 1px solid $base1;
+  border-left: 1px solid colors.$base1;
   margin-left: 0.7em;
   padding-left: 0.7em;
 }
