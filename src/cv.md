@@ -13,11 +13,23 @@ IT engineer with 20+ years of hands-on experience and 5+ years of managing exper
 
 Rich experience in designing, implementing and maintaining complex systems.
 
+Looking for a senior/lead role in a modern, remote-first company.
+
+
+Education
+---------
+
+Master of psychology, psychology teacher. Jewish University in Moscow  
+(2002-2007, 10 semesters)
+
+Post doctorate: Moscow State University of Psychology and Education  
+(2007-2010, 5 semesters)
+
 
 Tools and skills
 ----------------
 
-* Languages: fluent in English
+* English: C1 written or spoken
 * Operating systems: Linux, Unix
 * Programming languages: Go, JavaScript, Ruby, Python, Groovy, shell
 * Automation tools: ArgoCD, Ansible, Puppet, Jenkins, Terraform, Terragrunt, Selenium
@@ -31,15 +43,21 @@ Tools and skills
 * Web stuff: AngularJS, Django, Rails, PHP, nginx, Apache
 
 
+Hobbies
+-------
+Bass player (semi-professional), photographer (amateur)
+
+
 Work experience
 ---------------
 
-### DevOps Team Lead, Sandsiv Group Ltd. (2021-)
+### DevOps Team Lead, Sandsiv Group Ltd. (2021-2025)
 
 * Architecting and implementing a GitOps flow for automated delivery
 * Piloting the automated tests frameworks, cases and workflow
-* Designing and implementing on-premises installation suite
+* Designing and implementing product's on-premises installation suite
 * Planning the tech dept elimination progress
+* Hiring, mentoring, planning the load and tasks on the DevOps department
 * Code review
 
 
@@ -114,72 +132,9 @@ Work experience
   permissions and security procedures
 * Planned infrastructure-wide activities and needs, made unification decisions
 * Managed tech docs
-
-#### Maintained critical servers
-* Virtualization
-* Web, databases, and streaming media
-* Private repos, VPNs and misc. networking
-
-#### As IT specialist
 * Made load estimations and built server schemes and specs
 * Wrote configuration policies
-* Managed a custom deploy scripts system
 * Deployed new servers and applications
 * Scripting, benchmarks
 * Works with developers, troubleshooting
 * Code review
-
-
-### Systems administrator, FlexPro (2005-2011)
-
-* Maintained all hardware and software IT infrastructure of the
-  company, including workstations, servers and network equipment
-* Migrated a legacy Windows-based server infrastructure to a Unix-based one
-* Ethernet networks installation, hardware configuration of servers and workstations
-* Set-up and administration of Windows-based terminal servers
-* Developed and deployed a custom Unix-based thin client
-* Set-up and administration of Unix servers, including:
-  * Web services
-  * E-mail
-  * DNS
-  * Proxies and gateways
-  * VPN
-  * Samba domains
-  * IP telephony
-* Set-up, administration and tech support of Windows workstations
-* Developed a backup system for the company
-* Web design and development
-
-
-### IT engineer, Zeppelin PM Company (2007-2009)
-
-* Installed and maintained a Unix-based server infrastructure:
-  * Internet access services
-  * VPN service
-  * Mail service
-  * File servers
-  * User data backups system
-* Administration of Windows workstations
-* IT consulting
-
-
-### Systems administrator, YPI Yellow Pages Ltd. (2003-2004)
-
-* Maintained hardware and software IT infrastructure of the Moscow
-  office, including workstations, servers and network equipment
-* Administration of Unix and Windows servers
-* Set-up, administration and tech support of Windows and Mac OS workstations
-* Ethernet network installation, hardware configuration and specs
-
-
-### Free-lance Unix engineer (2001-2002)
-
-* Developed a traffic billing system
-* Deployed Unix-based Internet gateways to an ISP and an Internet Cafe
-
-
-### Web designer, Firm Green Island (2000)
-
-* Web design
-* Web development (Perl, PHP, HTML, CSS)
-* Web server administration
