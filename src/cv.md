@@ -1,6 +1,6 @@
 # Vasyl Korytov
 
-## Lead, Architect, DevOps, Developer, Linux&nbsp;engineer
+## Lead DevOps | Infrastructure Architect | Systems Engineer
 
 Dnipro, Ukraine
 <span class="right">[v.korytov@outlook.com](mailto:v.korytov@outlook.com)</span>
@@ -9,11 +9,10 @@ Dnipro, Ukraine
 Summary
 -------
 
-IT engineer with 20+ years of hands-on experience and 5+ years of managing experience.
-
-Rich experience in designing, implementing and maintaining complex systems.
-
-Looking for a senior/lead role in a modern, remote-first company.
+Senior infrastructure and DevOps leader with 20+ years of hands-on experience and 5+ years in technical leadership.
+Specializes in designing resilient infrastructure, architecting automation at scale, and leading cross-functional teams.
+Strong advocate for GitOps, open-source collaboration, and scalable, secure platforms.
+Seeks a lead or principal role at a modern, remote-first product company.
 
 
 Education
@@ -26,21 +25,26 @@ Post doctorate: Moscow State University of Psychology and Education
 (2007-2010, 5 semesters)
 
 
-Tools and skills
+Core competencies
 ----------------
 
+* Infrastructure & Architecture: GitOps, IaC, Kubernetes, cloud-native systems
+* Leadership: hiring, mentoring, planning, code reviews, cross-functional collaboration
+* Automation & CI/CD: Jenkins, ArgoCD, Helm, Terraform, pipelines, auto-testing
+* Cloud & Containers: AWS, GCP, Azure, Docker, OpenShift, Helm, K8s
+* Programming: Go, Python, Groovy, Ruby, JavaScript, shell
+* Open Source: contributor to Emacs, Jenkins, X.Org; Chocolatey maintainer
+* Dev Tooling: Git, Prometheus, Grafana, Loki, EFK, Graylog
 * English: C1 written or spoken
-* Operating systems: Linux, Unix
-* Programming languages: Go, JavaScript, Ruby, Python, Groovy, shell
-* Automation tools: ArgoCD, Ansible, Puppet, Jenkins, Terraform, Terragrunt, Selenium
-* Version control systems: Git, Subversion
-* Virtualization: KVM, Xen, Vagrant
-* Containers: Kubernetes, OpenShift, Helm, Docker, OpenVZ
-* Cloud computing: AWS, Azure, GCP
-* Logs: Loki, Graylog, EFK stack
-* Databases: Postgres, Redis, MongoDB, MySQL
-* Networking: OpenVPN, IPSec, Tor, proxies, firewalls
-* Web stuff: AngularJS, Django, Rails, PHP, nginx, Apache
+
+
+Open Source & Community
+-----------------------
+
+* Long-standing contributor to open source since early 2000s
+* Contributions to Emacs, Jenkins, X.Org
+* Maintainer of Chocolatey packages
+* Mentored developers and QA engineers outside immediate team
 
 
 Hobbies
@@ -53,88 +57,52 @@ Work experience
 
 ### DevOps Team Lead, Sandsiv Group Ltd. (2021-2025)
 
-* Architecting and implementing a GitOps flow for automated delivery
-* Piloting the automated tests frameworks, cases and workflow
-* Designing and implementing product's on-premises installation suite
-* Planning the tech dept elimination progress
-* Hiring, mentoring, planning the load and tasks on the DevOps department
-* Code review
+* Designed and led the company-wide GitOps transformation using ArgoCD, slashing deployment time from 1 hour of manual effort to 5 minutes of fully automated processes
+* Introduced automated testing post-deployment, eliminating 1+ hour of manual QA effort per release
+* Architected a self-hosted on-prem installation suite for the product platform
+* Led a DevOps team: hiring, mentoring, technical planning, and reviews
+* Oversaw tech debt reduction and modernized delivery workflows
 
 
 ### Senior DevOps engineer, GlobalLogic (2020-2021)
 
-* Developing infrastructure as code
-* Build and deploy pipelines
-* Designing and implementing CI/CD flow
-* R&D on finding best ways on adopting customer's needs for the cloud migration
-* Code review
+* Led migration to cloud-native infrastructure with Infrastructure-as-Code practices
+* Built robust CI/CD pipelines and cloud automation tooling
+* Conducted R&D for optimized client cloud migrations
+* Actively involved in code reviews and solution architecture
 
 
 ### Senior DevOps Engineer, Codefresh (2019-2020)
 
-* Build and deploy pipelines and Helm charts
-* Monitoring set-up and refinement
-* Grafana dashboards
-* Designing and implementing custom exporters for Prometheus
-* Designing and implementing custom daemons and services
-* Refactoring of existing solutions, adapting them to new use cases
+* Built and maintained Helm charts and deployment pipelines
+* Designed custom Prometheus exporters and Grafana dashboards
+* Refactored legacy infrastructure to support new client needs
+* Implemented proactive monitoring and alerting systems
 
 
 ### Sr. DevOps/Systems architect, Fortifier (2015-2019)
 
-* Designed the IT ecosystem for the company
-* DevOps team formation and mentoring
-* AWS and Azure environments set-up and administration
-* Infrastructure as code, set-up and delivery automation
-* Development and operations
-* Containerization
-* Information systems audit
-* Troubleshooting
-* Code review
+* Designed and built company-wide infrastructure across AWS and Azure
+* Formed and mentored the DevOps team
+* Led IaC, automation, containerization, and auditing processes
+* Unified dev and ops workflows, implemented robust CI/CD
 
 
 ### DevOps, Roch Systems LLC (2014)
 
-* Implemented instance data sharing architecture for Docker and Amazon S3
-* Implemented a log rotation utility for Amazon RDS
-* Implemented a template rendering processor
-* Docker and Vagrant scripting, images and boxes
-* Configuration of Web and VPN services
-* Build and bootstrap scripts
-* Troubleshooting, assisting developers
+* Developed Docker-S3 data sharing, Amazon RDS log utilities
+* Automated builds and service provisioning
 
 
 ### Deployment lead, Inside Systems LLC (2012-2014)
 
-* Architected a cluster solution on base of Inside ISP DCI
-  HTTP-filtering server, allowing solution to scale up to 8GB/s HTTP
-  traffic (standalone Inside ISP Server solution had 250MB/s
-  performance)
-* Implemented DB architecture for the cluster solution
-* Implemented a load balancer for the cluster solution
-* Set up a Puppet infrastructure for automated setup and maintenance
-* Set up Subversion infrastructure, managed testing and production releases
-* Controlled load and stress testing
-* Provided technical and commercial documentation
-* Commercial and technical discussions with developers and customers
-* Hardware benchmarks, load planning, server specs
-* IT infrastructure planning and consulting
+* Architected scalable cluster solution handling up to 8GB/s HTTP traffic
+* Designed DB, load balancer, and Puppet-based infra automation
+* Managed release cycles and system performance testing
 
 
 ### Chief information officer, Hot Spot (2011-2012)
 
-#### Managed sysadmin department
-* Hunted & trained the system administration team
-* Assigned tasks, priorities and provided execution control to the
-  system administration team workflow
-* Met with clients to discuss project details
-* Administrated infrastructure-wide services, managed access
-  permissions and security procedures
-* Planned infrastructure-wide activities and needs, made unification decisions
-* Managed tech docs
-* Made load estimations and built server schemes and specs
-* Wrote configuration policies
-* Deployed new servers and applications
-* Scripting, benchmarks
-* Works with developers, troubleshooting
-* Code review
+* Built and led sysadmin department
+* Planned infrastructure, implemented policies, and led IT strategy
+* Collaborated with developers on performance tuning and security
