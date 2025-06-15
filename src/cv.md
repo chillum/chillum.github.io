@@ -90,7 +90,7 @@ Work experience
 
 ### DevOps, Roch Systems LLC (2014)
 
-* Developed Docker-S3 data sharing, Amazon RDS log utilities
+* Developed internal tools used in development and production environments
 * Automated builds and service provisioning
 
 
