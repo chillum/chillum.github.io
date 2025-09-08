@@ -1,6 +1,6 @@
 # Vasyl Korytov
 
-## Lead DevOps | Infrastructure Architect | Systems Engineer
+## Lead DevOps | Infrastructure Architect
 
 Dnipro, Ukraine
 <span class="right">[v.korytov@outlook.com](mailto:v.korytov@outlook.com)</span>
@@ -57,7 +57,8 @@ Work experience
 
 ### DevOps Team Lead, Sandsiv Group Ltd. (2021-2025)
 
-* Designed and led the company-wide GitOps transformation using ArgoCD, slashing deployment time from 1 hour of manual effort to 5 minutes of fully automated processes
+* Designed and led the company-wide GitOps transformation using ArgoCD,
+  slashing deployment time from 1 hour of manual effort to 5 minutes of fully automated processes
 * Introduced automated testing post-deployment, eliminating 1+ hour of manual QA effort per release
 * Architected a self-hosted on-prem installation suite for the product platform
 * Led a DevOps team: hiring, mentoring, technical planning, and reviews
