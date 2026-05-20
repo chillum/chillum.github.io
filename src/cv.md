@@ -32,7 +32,7 @@ Core competencies
 * Infrastructure: GitOps, IaC, Kubernetes, cloud-native systems
 * Leadership: hiring, mentoring, planning, code reviews, cross-functional collaboration
 * Strong foundations in reliability engineering: observability, alerting, capacity planning, reactive self-healing
-* Automation & CI/CD: GitLab, Jenkins, ArgoCD, Helm, Terraform, pipelines, auto-testing
+* Automation & CI/CD: GitLab, Jenkins, ArgoCD, Terraform, pipelines, auto-testing
 * Cloud & Containers: AWS, GCP, Azure, OCI, Docker, OpenShift, Helm, Kustomize, K8s
 * Programming: Go, Python, Groovy, Ruby, JavaScript, shell, AI-assisted development
 * Open Source: contributor to Emacs, Jenkins, X.Org; Chocolatey maintainer
