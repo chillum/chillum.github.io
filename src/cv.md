@@ -37,6 +37,7 @@ Core competencies
 * Programming: Go, Python, Groovy, Ruby, JavaScript, shell, AI-assisted development
 * Open Source: contributor to Emacs, Jenkins, X.Org; Chocolatey maintainer
 * Dev tooling: Git, Prometheus, Grafana, Loki, EFK, Graylog
+* SQL and noSQL databases: MySQL, Postgres, MongoDB, Redis, Elasticsearch
 * Data: statistics educational background, proven ability to analyze data to find and solve problems
 * AI: worked in teams shipping enterprise-grade AI products for 10+ years
 * English: C1 written or spoken
