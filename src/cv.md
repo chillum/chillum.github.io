@@ -102,7 +102,7 @@ Work experience
 ### Deployment Lead, Inside Systems LLC (2012-2014)
 
 * Architected scalable cluster solution handling up to 8GB/s HTTP traffic
-* Designed DB, load balancer, and Puppet-based infra automation
+* Designed DB, load balancer, and Puppet-based infra-automation
 * Managed release cycles and system performance testing
 
 
