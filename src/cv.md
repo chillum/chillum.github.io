@@ -12,6 +12,7 @@ Summary
 Senior infrastructure and DevOps leader with 20+ years of hands-on experience and 5+ years in technical leadership.
 Specializes in designing resilient infrastructure, architecting automation at scale, and leading cross-functional teams.
 Strong advocate for GitOps, open-source collaboration, and scalable, secure platforms.
+Seeks a lead or principal role at a modern, remote-first product company.
 
 
 Education
