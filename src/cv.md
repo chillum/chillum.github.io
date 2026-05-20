@@ -1,6 +1,6 @@
 # Vasyl Korytov
 
-## Lead DevOps | Infrastructure Architect
+## Staff DevOps | Architect
 
 Dnipro, Ukraine
 <span class="right">[v.korytov@outlook.com](mailto:v.korytov@outlook.com)</span>
@@ -9,10 +9,10 @@ Dnipro, Ukraine
 Summary
 -------
 
-Senior infrastructure and DevOps leader with 20+ years of hands-on experience and 5+ years in technical leadership.
-Specializes in designing resilient infrastructure, architecting automation at scale, and leading cross-functional teams.
+DevOps leader with 20+ years of hands-on experience and 5+ years in technical leadership.
+Specializes in solution architecture, and leading cross-functional teams.
 Strong advocate for GitOps, open-source collaboration, and scalable, secure platforms.
-Seeks a lead or principal role at a modern, remote-first product company.
+Seeks a staff/principal-level role at a modern, remote-first product company.
 
 
 Education
@@ -28,15 +28,18 @@ Post doctorate: Moscow State University of Psychology and Education
 Core competencies
 ----------------
 
-* Infrastructure & Architecture: GitOps, IaC, Kubernetes, cloud-native systems
+* Architecture: proven experience in solution, systems and infrastructure architecture
+* Infrastructure: GitOps, IaC, Kubernetes, cloud-native systems
 * Leadership: hiring, mentoring, planning, code reviews, cross-functional collaboration
-* Automation & CI/CD: Jenkins, ArgoCD, Helm, Terraform, pipelines, auto-testing
-* Cloud & Containers: AWS, GCP, Azure, Docker, OpenShift, Helm, K8s
-* Programming: Go, Python, Groovy, Ruby, JavaScript, shell
+* Strong foundations in reliability engineering: observability, alerting, capacity planning, and reactive self-healing
+* Automation & CI/CD: GitLab, Jenkins, ArgoCD, Helm, Terraform, pipelines, auto-testing
+* Cloud & Containers: AWS, GCP, Azure, OCI, Docker, OpenShift, Helm, Kustomize, K8s
+* Programming: Go, Python, Groovy, Ruby, JavaScript, shell, AI-assisted development
 * Open Source: contributor to Emacs, Jenkins, X.Org; Chocolatey maintainer
 * Dev Tooling: Git, Prometheus, Grafana, Loki, EFK, Graylog
+* Data: statistics educational background, proven ability to analyze data to find and solve problems
+* AI: worked in teams shipping enterprise-grade AI products for 10+ years
 * English: C1 written or spoken
-
 
 Open Source & Community
 -----------------------
