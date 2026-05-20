@@ -36,7 +36,7 @@ Core competencies
 * Cloud & Containers: AWS, GCP, Azure, OCI, Docker, OpenShift, Helm, Kustomize, K8s
 * Programming: Go, Python, Groovy, Ruby, JavaScript, shell, AI-assisted development
 * Open Source: contributor to Emacs, Jenkins, X.Org; Chocolatey maintainer
-* Dev Tooling: Git, Prometheus, Grafana, Loki, EFK, Graylog
+* Dev tooling: Git, Prometheus, Grafana, Loki, EFK, Graylog
 * Data: statistics educational background, proven ability to analyze data to find and solve problems
 * AI: worked in teams shipping enterprise-grade AI products for 10+ years
 * English: C1 written or spoken
@@ -68,7 +68,7 @@ Work experience
 * Oversaw tech debt reduction and modernized delivery workflows
 
 
-### Senior DevOps engineer, GlobalLogic (2020-2021)
+### Senior DevOps Engineer, GlobalLogic (2020-2021)
 
 * Led migration to cloud-native infrastructure with Infrastructure-as-Code practices
 * Built robust CI/CD pipelines and cloud automation tooling
@@ -84,7 +84,7 @@ Work experience
 * Refactored legacy infrastructure to support new needs
 
 
-### Sr. DevOps/Systems architect, Fortifier (2015-2019)
+### Sr. DevOps/Systems Architect, Fortifier (2015-2019)
 
 * Designed and built company-wide infrastructure across AWS and Azure
 * Formed and mentored the DevOps team
@@ -98,14 +98,14 @@ Work experience
 * Automated builds and service provisioning
 
 
-### Deployment lead, Inside Systems LLC (2012-2014)
+### Deployment Lead, Inside Systems LLC (2012-2014)
 
 * Architected scalable cluster solution handling up to 8GB/s HTTP traffic
 * Designed DB, load balancer, and Puppet-based infra automation
 * Managed release cycles and system performance testing
 
 
-### Chief information officer, Hot Spot (2011-2012)
+### Chief Information Officer, Hot Spot (2011-2012)
 
 * Built and led sysadmin department
 * Planned infrastructure, implemented policies, and led IT strategy
