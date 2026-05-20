@@ -9,10 +9,10 @@ Dnipro, Ukraine
 Summary
 -------
 
-DevOps leader with 20+ years of hands-on experience and 5+ years in technical leadership.
-Specializes in solution architecture, and leading cross-functional teams.
-Strong advocate for GitOps, open-source collaboration, and scalable, secure platforms.
-Seeks a staff/principal-level role at a modern, remote-first product company.
+* DevOps leader with 20+ years of experience and 5+ years in technical leadership.
+* Specializes in solution architecture and leading cross-functional teams.
+* Strong advocate for GitOps, open-source collaboration, and scalable, secure platforms.
+* Seeks a staff/principal-level role at a modern, remote-first product company.
 
 
 Education
@@ -31,7 +31,7 @@ Core competencies
 * Architecture: proven experience in solution, systems and infrastructure architecture
 * Infrastructure: GitOps, IaC, Kubernetes, cloud-native systems
 * Leadership: hiring, mentoring, planning, code reviews, cross-functional collaboration
-* Strong foundations in reliability engineering: observability, alerting, capacity planning, and reactive self-healing
+* Strong foundations in reliability engineering: observability, alerting, capacity planning, reactive self-healing
 * Automation & CI/CD: GitLab, Jenkins, ArgoCD, Helm, Terraform, pipelines, auto-testing
 * Cloud & Containers: AWS, GCP, Azure, OCI, Docker, OpenShift, Helm, Kustomize, K8s
 * Programming: Go, Python, Groovy, Ruby, JavaScript, shell, AI-assisted development
