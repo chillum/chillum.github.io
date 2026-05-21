@@ -59,6 +59,25 @@ Bass player (semi-professional), photographer (amateur)
 Work experience
 ---------------
 
+### Staff DevOps, Soundhound AI (2025-2026)
+
+* Infrastructure Modernization & Risk Mitigation: Orchestrated a zero-downtime migration of three legacy subsystems,
+  containerizing a core service to Kubernetes and establishing a blue-green deployment strategy via new VM instances;
+  mitigated the total absence of automated tests by validating system health through rigorous log and performance analysis,
+  unblocking urgent commercial updates.
+* High-Scale Architecture & Data Engineering: Redesigned a failing core ingestion and ETL pipeline to continuously handle 400 RPS;
+  successfully solved a multi-year scaling bottleneck that had previously degraded application performance,
+  restoring data accuracy and system stability.
+* Legacy Recovery & Partner Delivery: Spearheaded the high-risk modernization of a mission-critical system from Java 5 to 21
+  without existing documentation or test suites; reverse-engineered the platform via rigorous manual testing to restore a
+  long-defunct database integration critical to external partner integration.
+* FinOps & Infrastructure Auditing: Audited deployment automation and runtime architecture to uncover a critical configuration bug
+  that left high-compute VM instances (80 CPUs and 400G RAM each) orphaned from the load balancer for years;
+  decommissioned the redundant infrastructure to slash subsystem costs by 50% with zero impact on production capacity.
+* Technical Leadership & Rapid Onboarding: Accelerated cross-departmental engineering velocity by optimizing onboarding workflows
+  and documenting obscure systems; successfully reduced a peer engineer's onboarding time on a massive project from months
+  to three weeks while up-leveling interviewing standards for candidate screening.
+
 ### DevOps Team Lead, Sandsiv Group Ltd. (2021-2025)
 
 * Designed and led the company-wide GitOps transformation using ArgoCD,
