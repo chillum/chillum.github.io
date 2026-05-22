@@ -112,12 +112,6 @@ Work experience
 * Unified dev and ops workflows, implemented robust CI/CD
 
 
-### DevOps, Roch Systems LLC (2014)
-
-* Developed internal tools used in development and production environments
-* Automated builds and service provisioning
-
-
 ### Deployment Lead, Inside Systems LLC (2012-2014)
 
 * Architected scalable cluster solution handling up to 8GB/s HTTP traffic
