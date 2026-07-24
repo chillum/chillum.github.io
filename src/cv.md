@@ -104,7 +104,7 @@ Work experience
 * Refactored legacy infrastructure to support new needs
 
 
-### Sr. DevOps/Systems Architect, Fortifier (2015-2019)
+### Sr. DevOps/Solutions Architect, Fortifier (2015-2019)
 
 * Designed and built company-wide infrastructure across AWS and Azure
 * Formed and mentored the DevOps team
@@ -112,7 +112,7 @@ Work experience
 * Unified dev and ops workflows, implemented robust CI/CD
 
 
-### Deployment Lead, Inside Systems LLC (2012-2014)
+### Solutions Architect, Inside Systems LLC (2012-2014)
 
 * Architected scalable cluster solution handling up to 8GB/s HTTP traffic
 * Designed DB, load balancer, and Puppet-based infra-automation
