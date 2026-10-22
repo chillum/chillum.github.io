@@ -107,8 +107,8 @@ Work experience
 * Designed and built company-wide infrastructure
 * Formed and mentored the DevOps team
 * Solutions and infrastructure architecture
-* Led IaC, automation, containerization, and auditing processes
 * Unified dev and ops workflows
+* Led IaC, automation, containerization, and auditing processes
 
 
 ### Solutions Architect, Inside Systems LLC (2012-2014)
