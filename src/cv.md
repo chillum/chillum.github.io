@@ -1,6 +1,6 @@
 # Vasyl Korytov
 
-## Staff DevOps | Architect
+## Platform Architect
 
 Dnipro, Ukraine
 <span class="right">[v.korytov@outlook.com](mailto:v.korytov@outlook.com)</span>
