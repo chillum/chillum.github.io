@@ -104,7 +104,6 @@ Work experience
 
 ### DevOps Team Lead/Solutions Architect, Fortifier (2015-2019)
 
-* Designed and built company-wide infrastructure
 * Formed and mentored the DevOps team
 * Solutions and infrastructure architecture
 * Unified dev and ops workflows
