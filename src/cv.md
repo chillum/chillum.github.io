@@ -9,7 +9,7 @@ Dnipro, Ukraine
 Summary
 -------
 
-* DevOps leader with 25+ years of experience and 7+ years in technical leadership
+* DevOps leader with 25+ years of experience and 9 years in technical leadership
 * Specializes in solution architecture and leading cross-functional teams
 * Strong advocate for GitOps, open-source collaboration, and scalable, secure platforms
 * Seeks a staff/principal-level role at a modern, remote-first product company
