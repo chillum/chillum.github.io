@@ -121,4 +121,4 @@ Work experience
 
 * Built and led sysadmin department
 * Planned infrastructure, implemented policies, and led IT strategy
-* Collaborated with developers on performance tuning and security
+* Collaborated with developers on performance and security
