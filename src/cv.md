@@ -104,12 +104,13 @@ Work experience
 * Refactored legacy infrastructure to support new needs
 
 
-### Sr. DevOps/Solutions Architect, Fortifier (2015-2019)
+### DevOps Team Lead/Solutions Architect, Fortifier (2015-2019)
 
-* Designed and built company-wide infrastructure across AWS and Azure
+* Designed and built company-wide infrastructure
 * Formed and mentored the DevOps team
+* Solutions and infrastructure architecture
 * Led IaC, automation, containerization, and auditing processes
-* Unified dev and ops workflows, implemented robust CI/CD
+* Unified dev and ops workflows
 
 
 ### Solutions Architect, Inside Systems LLC (2012-2014)
