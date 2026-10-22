@@ -99,9 +99,7 @@ Work experience
 ### Senior DevOps Engineer, Codefresh (2019-2020)
 
 * Implemented proactive monitoring and alerting systems
-* Designed custom Prometheus exporters and Grafana dashboards
-* Built and maintained Helm charts and deployment pipelines
-* Refactored legacy infrastructure to support new needs
+* Aligned product’s supported Windows runtimes with Microsoft Lifecycle Policy
 
 
 ### DevOps Team Lead/Solutions Architect, Fortifier (2015-2019)
