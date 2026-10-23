@@ -112,9 +112,9 @@ Work experience
 
 ### Solutions Architect, Inside Systems LLC (2012-2014)
 
-* Architected scalable cluster solution handling up to 8GB/s HTTP traffic
-* Designed DB, load balancer, and Puppet-based infra-automation
-* Managed release cycles and system performance testing
+* Architected scalable cluster solution handling up to 8GB/s HTTP traffic,
+  including hardware, software and infrastructure parts
+* Managed release cycle and hi-load performance testing
 
 
 ### Chief Information Officer, Hot Spot (2011-2012)
