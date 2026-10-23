@@ -120,5 +120,5 @@ Work experience
 ### Chief Information Officer, Hot Spot (2011-2012)
 
 * Built and led sysadmin department
-* Planned infrastructure, implemented policies, and led IT strategy
+* Planned infrastructure, developed policies, and led IT strategy
 * Conducted cross-functional collaboration on performance and security
