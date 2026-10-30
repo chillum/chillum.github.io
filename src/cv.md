@@ -1,6 +1,6 @@
 # Vasyl Korytov
 
-## Platform Architect
+## Platform Architect | Principal Platform Engineer
 
 Dnipro, Ukraine
 <span class="right">[v.korytov@outlook.com](mailto:v.korytov@outlook.com)</span>
