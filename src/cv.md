@@ -12,6 +12,8 @@ Summary
 Principal-level systems and infrastructure engineer with 25+ years of experience in technology,
 combining deep hands-on engineering expertise with end-to-end solution architecture ownership and technical leadership.
 
+Brings a decade of experience in SaaS product environments, alongside experience in industrial IoT and enterprise AI.
+
 Specializes in designing, modernizing and rescuing complex production systems,
 solving difficult scalability and reliability problems,
 and transforming infrastructure and engineering workflows.
@@ -116,6 +118,10 @@ Work experience
 
 ### DevOps Team Lead/Solutions Architect, Fortifier (2015-2019)
 
+* Served as solution architect for an industrial IoT startup,
+  designing and delivering the initial customer-facing solution,
+  including its infrastructure, device heartbeat and metrics collection,
+  and automated customer onboarding and provisioning.
 * Established and mentored the DevOps engineering team.
 * Owned solution and infrastructure architecture.
 * Unified development and operations workflows.
