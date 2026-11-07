@@ -1,6 +1,6 @@
 # Vasyl Korytov
 
-## Platform Architect | Principal Platform Engineer
+## Principal Systems & Infrastructure Engineer <br>Platform Architect | Technical Leader
 
 Dnipro, Ukraine
 <span class="right">[v.korytov@outlook.com](mailto:v.korytov@outlook.com)</span>
@@ -9,51 +9,64 @@ Dnipro, Ukraine
 Summary
 -------
 
-* DevOps leader with 25+ years of experience and 9 years in technical leadership
-* Specializes in solution architecture and leading cross-functional teams
-* Strong advocate for GitOps, open-source collaboration, and scalable, secure platforms
-* Seeks a staff/principal-level role at a modern, remote-first product company
+Principal-level systems and infrastructure engineer with 25+ years of experience in technology,
+combining deep hands-on engineering expertise with end-to-end solution architecture ownership and technical leadership.
 
+Specializes in designing, modernizing and rescuing complex production systems,
+solving difficult scalability and reliability problems,
+and transforming infrastructure and engineering workflows.
 
-Education
----------
+Proven track record of delivering measurable business outcomes,
+including resolving multi-year performance bottlenecks, reducing infrastructure costs by 50%,
+modernizing mission-critical legacy systems and introducing company-wide infrastructure automation.
 
-Master of psychology, psychology teacher. Jewish University in Moscow  
-(2002-2007, 10 semesters)
-
-Post doctorate: Moscow State University of Psychology and Education  
-(2007-2010, 5 semesters)
+Experienced in leading multiple engineering teams, mentoring developers, making architectural decisions
+and working across organizational boundaries. Long-standing open-source contributor
+with a broad background in distributed systems, cloud infrastructure, automation and enterprise AI products.
 
 
 Core competencies
 ----------------
 
-* Architecture: proven experience in solution, systems and infrastructure architecture
-* Infrastructure: GitOps, IaC, Kubernetes, cloud-native systems
-* Leadership: hiring, mentoring, planning, code reviews, cross-functional collaboration
-* Strong foundations in reliability engineering: observability, alerting, capacity planning, reactive self-healing
-* Automation & CI/CD: GitLab, Jenkins, ArgoCD, Terraform, pipelines, auto-testing
-* Cloud & Containers: AWS, GCP, Azure, OCI, Docker, OpenShift, Helm, Kustomize, K8s
-* Programming: Go, Python, Groovy, Ruby, JavaScript, shell, AI-assisted development
-* Open Source: contributor to Emacs, Jenkins, X.Org; Chocolatey maintainer
-* Dev tooling: Git, Prometheus, Grafana, Loki, EFK, Graylog
-* SQL and noSQL databases: MySQL, Postgres, MongoDB, Redis, Elasticsearch
-* Data: statistics educational background, proven ability to analyze data to find and solve problems
-* AI: worked in teams shipping enterprise-grade AI products for 10+ years
-* English: C1 written or spoken
+### Systems & Solution Architecture
+* End-to-end solution and infrastructure architecture
+* Distributed systems and high-scale data processing
+* Legacy system modernization and technical debt reduction
+* Performance engineering and capacity planning
+* Enterprise integrations and production systems recovery
 
-Open Source & Community
------------------------
+### Infrastructure & Platform Engineering
+* Kubernetes, Docker, OpenShift
+* AWS, GCP, Azure, OCI
+* Infrastructure as Code and GitOps
+* Terraform, ArgoCD, Helm, Kustomize
+* Cloud-native infrastructure and hybrid deployments
 
-* Long-standing contributor to open source since early 2000s
-* Contributions to Emacs, Jenkins, X.Org
-* Maintainer of Chocolatey packages
-* Mentored developers and QA engineers outside immediate team
+### Reliability & Production Engineering
+* Observability, monitoring and alerting
+* Prometheus, Grafana, Loki, EFK, Graylog
+* Production troubleshooting and incident analysis
+* High availability and zero-downtime migrations
+* Infrastructure efficiency and cost optimization
+* Software Engineering & Automation
+* Go, Python, Groovy, Ruby, JavaScript
+* Shell scripting and automation
+* CI/CD architecture: GitLab, Jenkins
+* Automated testing and deployment validation
+* SQL and NoSQL: PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch
 
+### Technical Leadership
+* Technical strategy and architectural ownership
+* Engineering team formation and leadership
+* Hiring, mentoring and technical development
+* Cross-functional engineering collaboration
+* Technical planning, code reviews and onboarding improvement
 
-Hobbies
--------
-Bass player (semi-professional), photographer (amateur)
+### Additional Expertise
+* Enterprise AI product development environments
+* Data analysis and statistical foundations
+* Open-source development and community collaboration
+* English: C1
 
 
 Work experience
@@ -61,64 +74,69 @@ Work experience
 
 ### Staff DevOps, Soundhound AI (2025-2026)
 
-* Infrastructure Modernization & Risk Mitigation: Orchestrated a zero-downtime migration of three legacy subsystems,
-  containerizing a core service to Kubernetes and establishing a blue-green deployment strategy via new VM instances;
-  mitigated the total absence of automated tests by validating system health through rigorous log and performance analysis,
-  unblocking urgent commercial updates.
-* High-Scale Architecture & Data Engineering: Redesigned a failing core ingestion and ETL pipeline to continuously handle 400 RPS;
-  successfully solved a multi-year scaling bottleneck that had previously degraded application performance,
-  restoring data accuracy and system stability.
-* Legacy Recovery & Partner Delivery: Spearheaded the high-risk modernization of a mission-critical system from Java 5 to 21
-  without existing documentation or test suites; reverse-engineered the platform via rigorous manual testing to restore a
-  long-defunct database integration critical to external partner integration.
-* FinOps & Infrastructure Auditing: Audited deployment automation and runtime architecture to uncover a critical configuration bug
-  that left high-compute VM instances (80 CPUs and 400G RAM each) orphaned from the load balancer for years;
-  decommissioned the redundant infrastructure to slash subsystem costs by 50% with zero impact on production capacity.
-* Technical Leadership & Rapid Onboarding: Accelerated cross-departmental engineering velocity by optimizing onboarding workflows
-  and documenting obscure systems; successfully reduced a peer engineer's onboarding time on a massive project from months
-  to three weeks while up-leveling interviewing standards for candidate screening.
+* **Distributed Systems & Data Engineering:** Redesigned a failing core ingestion and ETL pipeline to continuously handle 400 RPS,
+  resolving a multi-year scalability bottleneck, restoring data accuracy and system stability.
+* **Infrastructure Modernization:** Orchestrated zero-downtime migration of three legacy subsystems,
+  containerizing a core service on Kubernetes and implementing blue-green deployment through new VM instances.
+* **Legacy Systems Modernization:** Led modernization of a mission-critical system from Java 5 to Java 21
+  without existing documentation or automated tests. Reverse-engineered the platform through manual testing
+  and restored a long-defunct database integration required for external partner connectivity.
+* **Infrastructure Efficiency & FinOps:** Identified a long-standing infrastructure configuration issue
+  that left high-capacity virtual machines outside the load balancer. Eliminated redundant infrastructure
+  and reduced subsystem costs by 50% without affecting production capacity.
+* **Technical Leadership:** Improved cross-team engineering effectiveness through onboarding optimization
+  and documentation of complex legacy systems, reducing a peer engineer's onboarding time from months to three weeks.
+
 
 ### DevOps Team Lead, Sandsiv Group Ltd. (2021-2025)
 
-* Designed and led the company-wide GitOps transformation using ArgoCD,
-  slashing deployment time from 1 hour of manual effort to 5 minutes of fully automated processes
-* Introduced automated testing post-deployment, eliminating 1+ hour of manual QA effort per release
-* Architected a self-hosted on-prem installation suite for the product platform
-* Led a DevOps team: hiring, mentoring, technical planning, and reviews
-* Oversaw tech debt reduction and modernized delivery workflows
+* Designed and led a company-wide GitOps transformation using ArgoCD,
+  reducing deployment time from approximately one hour of manual work to five minutes of automated execution.
+* Introduced automated post-deployment testing, eliminating more than one hour of manual QA effort per release.
+* Architected a self-hosted on-premises installation suite for the company's product platform.
+* Led the DevOps team, including hiring, mentoring, technical planning and engineering reviews.
+* Drove technical debt reduction and modernization of engineering delivery workflows.
 
 
 ### Senior DevOps Engineer, GlobalLogic (2020-2021)
 
-* Led migration to cloud-native infrastructure with Infrastructure-as-Code practices
-* Built robust CI/CD pipelines and cloud automation tooling
-* Conducted R&D for optimized client cloud migrations
-* Actively involved in code reviews and solution architecture
+* Evaluated cloud architecture options for migrating a complex on-premises OpenShift environment to AWS,
+  assessing the feasibility of running OpenShift on AWS versus adopting Amazon EKS.
+* Led migration to cloud-native infrastructure using Infrastructure as Code practices.
+* Designed and implemented CI/CD pipelines and cloud automation tooling.
+* Contributed to solution architecture and engineering code reviews.
 
 
 ### Senior DevOps Engineer, Codefresh (2019-2020)
 
-* Implemented proactive monitoring and alerting systems
-* Aligned product’s supported Windows runtimes with Microsoft Lifecycle Policy
+* Implemented proactive monitoring and alerting systems.
+* Aligned product-supported Windows runtimes with Microsoft Lifecycle Policy.
 
 
 ### DevOps Team Lead/Solutions Architect, Fortifier (2015-2019)
 
-* Formed and mentored the DevOps team
-* Solutions and infrastructure architecture
-* Unified dev and ops workflows
-* Led IaC, automation, containerization, and audit processes
-
+* Established and mentored the DevOps engineering team.
+* Owned solution and infrastructure architecture.
+* Unified development and operations workflows.
+* Led Infrastructure as Code, automation, containerization and infrastructure auditing initiatives.
 
 ### Solutions Architect, Inside Systems LLC (2012-2014)
 
-* Architected scalable cluster solution handling up to 8GB/s HTTP traffic,
-  including hardware, software and infrastructure parts
-* Managed release cycle and hi-load performance testing
+* Designed a scalable cluster solution capable of handling up to 8 GB/s of HTTP traffic,
+  covering hardware, software and infrastructure architecture.
+* Managed release cycles and high-load performance testing.
 
 
 ### Chief Information Officer, Hot Spot (2011-2012)
 
-* Built and led sysadmin department
-* Planned infrastructure, developed policies, and led IT strategy
-* Conducted cross-functional collaboration on performance and security
+* Established and led the systems administration department.
+* Defined infrastructure architecture, IT policies and technology strategy.
+* Coordinated cross-functional initiatives involving performance and security.
+
+
+## Open Source & Community
+
+* Long-standing open-source contributor since the early 2000s.
+* Contributions to Emacs, Jenkins and X.Org.
+* Maintainer of Chocolatey packages.
+* Mentored developers and QA engineers outside immediate reporting structures.
