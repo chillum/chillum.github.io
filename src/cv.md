@@ -48,7 +48,8 @@ Core competencies
 * Production troubleshooting and incident analysis
 * High availability and zero-downtime migrations
 * Infrastructure efficiency and cost optimization
-* Software Engineering & Automation
+
+### Software Engineering & Automation
 * Go, Python, Groovy, Ruby, JavaScript
 * Shell scripting and automation
 * CI/CD architecture: GitLab, Jenkins
@@ -76,7 +77,7 @@ Work experience
 
 * **Distributed Systems & Data Engineering:** Redesigned a failing core ingestion and ETL pipeline to continuously handle 400 RPS,
   resolving a multi-year scalability bottleneck, restoring data accuracy and system stability.
-* **Infrastructure Modernization:** Orchestrated zero-downtime migration of three legacy subsystems,
+* **Infrastructure Modernization:** Led the zero-downtime migration of three legacy subsystems,
   containerizing a core service on Kubernetes and implementing blue-green deployment through new VM instances.
 * **Legacy Systems Modernization:** Led modernization of a mission-critical system from Java 5 to Java 21
   without existing documentation or automated tests. Reverse-engineered the platform through manual testing
@@ -102,7 +103,7 @@ Work experience
 
 * Evaluated cloud architecture options for migrating a complex on-premises OpenShift environment to AWS,
   assessing the feasibility of running OpenShift on AWS versus adopting Amazon EKS.
-* Led migration to cloud-native infrastructure using Infrastructure as Code practices.
+* Led the implementation of cloud-native infrastructure using Infrastructure as Code practices.
 * Designed and implemented CI/CD pipelines and cloud automation tooling.
 * Contributed to solution architecture and engineering code reviews.
 
