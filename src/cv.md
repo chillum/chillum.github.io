@@ -73,7 +73,7 @@ Core competencies
 Work experience
 ---------------
 
-### Staff DevOps, Soundhound AI (2025-2026)
+### Staff DevOps, SoundHound AI (2025-2026)
 
 * **Distributed Systems & Data Engineering:** Redesigned a failing core ingestion and ETL pipeline to continuously handle 400 RPS,
   resolving a multi-year scalability bottleneck, restoring data accuracy and system stability.
@@ -141,3 +141,8 @@ Work experience
 * Contributions to Emacs, Jenkins and X.Org.
 * Maintainer of Chocolatey packages.
 * Mentored developers and QA engineers outside immediate reporting structures.
+
+
+## Early career highlight
+
+* Developed and sold a billing and Internet access-management solution to an emerging ISP and an Internet café in 2000.
